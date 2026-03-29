@@ -1,0 +1,32 @@
+{
+  "title": {
+    "page": "global",
+    "component": "App",
+    "description": "The name of the website displayed as the main heading.",
+    "tone": "neutral, brand",
+    "characterLimit": null,
+    "placeholders": [],
+    "doNotTranslate": ["Power Plays History"],
+    "notes": "This is the brand name — do not translate."
+  },
+  "comingSoon": {
+    "page": "global",
+    "component": "App",
+    "description": "Coming soon announcement shown below the site title.",
+    "tone": "professional, anticipatory",
+    "characterLimit": 20,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Short and punchy. Standard 'coming soon' phrase in the target language."
+  },
+  "tagline": {
+    "page": "global",
+    "component": "App",
+    "description": "A brief teaser line shown below the coming soon text.",
+    "tone": "warm, inviting",
+    "characterLimit": 60,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Conveys excitement and anticipation. Adapt naturally to the target language."
+  }
+}
