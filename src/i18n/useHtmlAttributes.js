@@ -1,6 +1,6 @@
-import { useEffect } from 'react';
-import { useTranslation } from 'react-i18next';
-import { RTL_LOCALES } from './locales.js';
+import { useEffect } from "react";
+import { useTranslation } from "react-i18next";
+import { RTL_LOCALES } from "./locales.js";
 
 /**
  * Keeps <html lang> and <html dir> in sync with the active i18next locale.
@@ -15,10 +15,10 @@ export function useHtmlAttributes() {
 
   useEffect(() => {
     const locale = i18n.language;
-    document.documentElement.setAttribute('lang', locale);
+    document.documentElement.setAttribute("lang", locale);
     document.documentElement.setAttribute(
-      'dir',
-      RTL_LOCALES.has(locale) ? 'rtl' : 'ltr'
+      "dir",
+      RTL_LOCALES.has(locale) ? "rtl" : "ltr",
     );
   }, [i18n.language]);
 }

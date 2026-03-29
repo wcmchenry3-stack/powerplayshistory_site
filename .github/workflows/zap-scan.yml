@@ -3,7 +3,7 @@ name: ZAP Weekly Scan
 on:
   schedule:
     # Weekly Sunday at 06:00 UTC (midnight Mountain Time)
-    - cron: '0 6 * * 0'
+    - cron: "0 6 * * 0"
   workflow_dispatch:
 
 jobs:
@@ -11,5 +11,5 @@ jobs:
     uses: wcmchenry3-stack/.github/.github/workflows/called-zap-scheduled.yml@main
     with:
       target-url: ${{ secrets.SITE_URL }}
-      artifact-name: 'zap-weekly-pph'
+      artifact-name: "zap-weekly-pph"
     secrets: inherit

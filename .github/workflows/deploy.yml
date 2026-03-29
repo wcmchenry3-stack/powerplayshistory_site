@@ -13,7 +13,7 @@ jobs:
     needs: ci
     uses: wcmchenry3-stack/.github/.github/workflows/called-deploy-render.yml@main
     with:
-      service-name: 'powerplayshistory'
-      service-id: 'srv-d74mc4lactks738ibq30'
-      zap-target-url: 'https://powerplayshistory.onrender.com'
+      service-name: "powerplayshistory"
+      service-id: "srv-d74mc4lactks738ibq30"
+      zap-target-url: "https://powerplayshistory.onrender.com"
     secrets: inherit

@@ -10,33 +10,33 @@
  * if totalMissing > 0.
  */
 
-import { readFileSync } from 'fs';
-import { join, dirname } from 'path';
-import { fileURLToPath } from 'url';
+import { readFileSync } from "fs";
+import { join, dirname } from "path";
+import { fileURLToPath } from "url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const LOCALES_DIR = join(__dirname, '../public/locales');
-const PLACEHOLDER = '__NEEDS_TRANSLATION__';
-const NAMESPACES = ['common'];
-const TARGET_LOCALES = ['fr-CA', 'es', 'hi', 'ar'];
+const LOCALES_DIR = join(__dirname, "../public/locales");
+const PLACEHOLDER = "__NEEDS_TRANSLATION__";
+const NAMESPACES = ["common"];
+const TARGET_LOCALES = ["fr-CA", "es", "hi", "ar"];
 
 function loadJson(path) {
   try {
-    return JSON.parse(readFileSync(path, 'utf8'));
+    return JSON.parse(readFileSync(path, "utf8"));
   } catch {
     return null;
   }
 }
 
 function main() {
-  const outputJson = process.argv.includes('--output-json');
+  const outputJson = process.argv.includes("--output-json");
   const results = {};
   let totalMissing = 0;
 
   for (const locale of TARGET_LOCALES) {
     results[locale] = {};
     for (const ns of NAMESPACES) {
-      const enSource = loadJson(join(LOCALES_DIR, 'en', `${ns}.json`));
+      const enSource = loadJson(join(LOCALES_DIR, "en", `${ns}.json`));
       const target = loadJson(join(LOCALES_DIR, locale, `${ns}.json`));
 
       if (!enSource) continue;
@@ -60,12 +60,12 @@ function main() {
   }
 
   if (totalMissing === 0) {
-    console.log('✓ All locales fully translated — 0 missing strings.');
+    console.log("✓ All locales fully translated — 0 missing strings.");
     return;
   }
 
   console.log(
-    `⚠  Found ${totalMissing} untranslated string(s) across all locales:\n`
+    `⚠  Found ${totalMissing} untranslated string(s) across all locales:\n`,
   );
 
   for (const [locale, nses] of Object.entries(results)) {
@@ -77,7 +77,7 @@ function main() {
   }
 
   console.log(
-    `\nRun: node scripts/translate.js --locale <code> --namespace <ns>`
+    `\nRun: node scripts/translate.js --locale <code> --namespace <ns>`,
   );
 }
 

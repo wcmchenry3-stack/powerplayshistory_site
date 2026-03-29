@@ -16,15 +16,15 @@
  *   OPENAI_API_KEY environment variable
  */
 
-import { readFileSync, writeFileSync } from 'fs';
-import { join, dirname } from 'path';
-import { fileURLToPath } from 'url';
-import { glossary, doNotTranslateTerms } from '../src/i18n/glossary.js';
-import { LOCALES } from '../src/i18n/locales.js';
+import { readFileSync, writeFileSync } from "fs";
+import { join, dirname } from "path";
+import { fileURLToPath } from "url";
+import { glossary, doNotTranslateTerms } from "../src/i18n/glossary.js";
+import { LOCALES } from "../src/i18n/locales.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const LOCALES_DIR = join(__dirname, '../public/locales');
-const PLACEHOLDER = '__NEEDS_TRANSLATION__';
+const LOCALES_DIR = join(__dirname, "../public/locales");
+const PLACEHOLDER = "__NEEDS_TRANSLATION__";
 const BATCH_SIZE = 20;
 
 // ─── CLI ─────────────────────────────────────────────────────────────────────
@@ -33,28 +33,28 @@ function parseArgs() {
   const args = process.argv.slice(2);
   const get = (flag) => {
     const i = args.indexOf(flag);
-    return i !== -1 && args[i + 1] && !args[i + 1].startsWith('--')
+    return i !== -1 && args[i + 1] && !args[i + 1].startsWith("--")
       ? args[i + 1]
       : null;
   };
   const has = (flag) => args.includes(flag);
 
-  const locale = get('--locale');
-  const ns = get('--namespace');
-  const model = get('--model') ?? 'gpt-4o';
-  const dryRun = has('--dry-run');
-  const force = has('--force');
+  const locale = get("--locale");
+  const ns = get("--namespace");
+  const model = get("--model") ?? "gpt-4o";
+  const dryRun = has("--dry-run");
+  const force = has("--force");
 
   if (!locale || !ns) {
     console.error(
-      'Usage: node scripts/translate.js --locale <code> --namespace <ns> [--model gpt-4o] [--dry-run] [--force]'
+      "Usage: node scripts/translate.js --locale <code> --namespace <ns> [--model gpt-4o] [--dry-run] [--force]",
     );
     console.error(
-      `  Locales:     ${LOCALES.filter((l) => l.code !== 'en')
+      `  Locales:     ${LOCALES.filter((l) => l.code !== "en")
         .map((l) => l.code)
-        .join(' | ')}`
+        .join(" | ")}`,
     );
-    console.error('  Namespaces:  common');
+    console.error("  Namespaces:  common");
     process.exit(1);
   }
 
@@ -64,25 +64,25 @@ function parseArgs() {
 // ─── File helpers ─────────────────────────────────────────────────────────────
 
 function loadJson(path) {
-  return JSON.parse(readFileSync(path, 'utf8'));
+  return JSON.parse(readFileSync(path, "utf8"));
 }
 
 // ─── Prompt builders ─────────────────────────────────────────────────────────
 
 function buildGlossaryBlock() {
   const lines = [
-    'PROTECTED TERMS — do not translate, modify, or transliterate these:',
+    "PROTECTED TERMS — do not translate, modify, or transliterate these:",
   ];
   for (const [term, meta] of Object.entries(glossary)) {
     if (!meta.doNotTranslate) continue;
-    const note = meta.notes ? ` (${meta.notes})` : '';
+    const note = meta.notes ? ` (${meta.notes})` : "";
     lines.push(`  • "${term}" — ${meta.reason}${note}`);
   }
-  return lines.join('\n');
+  return lines.join("\n");
 }
 
 function buildContextBlock(keys, metaMap) {
-  const lines = ['PER-KEY CONTEXT (use this to guide tone and constraints):'];
+  const lines = ["PER-KEY CONTEXT (use this to guide tone and constraints):"];
   for (const key of keys) {
     const m = metaMap[key];
     if (!m) continue;
@@ -92,14 +92,14 @@ function buildContextBlock(keys, metaMap) {
     if (m.characterLimit) parts.push(`charLimit: ${m.characterLimit}`);
     if (m.placeholders?.length)
       parts.push(
-        `placeholders (preserve exactly): ${m.placeholders.join(', ')}`
+        `placeholders (preserve exactly): ${m.placeholders.join(", ")}`,
       );
     if (m.doNotTranslate?.length)
-      parts.push(`do not translate: ${m.doNotTranslate.join(', ')}`);
+      parts.push(`do not translate: ${m.doNotTranslate.join(", ")}`);
     if (m.notes) parts.push(`notes: ${m.notes}`);
-    lines.push(parts.join(' | '));
+    lines.push(parts.join(" | "));
   }
-  return lines.join('\n');
+  return lines.join("\n");
 }
 
 function buildSystemPrompt(localeConfig) {
@@ -131,23 +131,23 @@ async function callOpenAI(systemPrompt, userPrompt, model) {
   const apiKey = process.env.OPENAI_API_KEY;
   if (!apiKey) {
     throw new Error(
-      'OPENAI_API_KEY environment variable is not set.\n' +
-        'Export it before running: export OPENAI_API_KEY=sk-...'
+      "OPENAI_API_KEY environment variable is not set.\n" +
+        "Export it before running: export OPENAI_API_KEY=sk-...",
     );
   }
 
-  const response = await fetch('https://api.openai.com/v1/chat/completions', {
-    method: 'POST',
+  const response = await fetch("https://api.openai.com/v1/chat/completions", {
+    method: "POST",
     headers: {
-      'Content-Type': 'application/json',
+      "Content-Type": "application/json",
       Authorization: `Bearer ${apiKey}`,
     },
     body: JSON.stringify({
       model,
       temperature: 0.2,
       messages: [
-        { role: 'system', content: systemPrompt },
-        { role: 'user', content: userPrompt },
+        { role: "system", content: systemPrompt },
+        { role: "user", content: userPrompt },
       ],
     }),
   });
@@ -177,7 +177,7 @@ function validate(source, translated) {
     for (const term of doNotTranslateTerms) {
       if (srcVal.includes(term) && !tVal.includes(term)) {
         warnings.push(
-          `  ⚠  Key "${key}": protected term "${term}" missing in translation.`
+          `  ⚠  Key "${key}": protected term "${term}" missing in translation.`,
         );
       }
     }
@@ -187,7 +187,7 @@ function validate(source, translated) {
     for (const ph of srcPhs) {
       if (!tPhs.includes(ph)) {
         warnings.push(
-          `  ⚠  Key "${key}": placeholder "${ph}" missing in translation.`
+          `  ⚠  Key "${key}": placeholder "${ph}" missing in translation.`,
         );
       }
     }
@@ -202,20 +202,20 @@ async function main() {
   const { locale, ns, model, dryRun, force } = parseArgs();
 
   const localeConfig = LOCALES.find((l) => l.code === locale);
-  if (!localeConfig || locale === 'en') {
+  if (!localeConfig || locale === "en") {
     console.error(
       `Invalid locale "${locale}". Choose from: ${LOCALES.filter(
-        (l) => l.code !== 'en'
+        (l) => l.code !== "en",
       )
         .map((l) => l.code)
-        .join(', ')}`
+        .join(", ")}`,
     );
     process.exit(1);
   }
 
-  const enPath = join(LOCALES_DIR, 'en', `${ns}.json`);
+  const enPath = join(LOCALES_DIR, "en", `${ns}.json`);
   const targetPath = join(LOCALES_DIR, locale, `${ns}.json`);
-  const metaPath = join(LOCALES_DIR, '_meta', `${ns}.meta.json`);
+  const metaPath = join(LOCALES_DIR, "_meta", `${ns}.meta.json`);
 
   const enStrings = loadJson(enPath);
   const targetStrings = loadJson(targetPath);
@@ -231,9 +231,9 @@ async function main() {
     return;
   }
 
-  const tag = dryRun ? ' [DRY RUN]' : '';
+  const tag = dryRun ? " [DRY RUN]" : "";
   console.log(
-    `Translating ${keysToTranslate.length} key(s) → ${locale}/${ns}.json  (model: ${model})${tag}`
+    `Translating ${keysToTranslate.length} key(s) → ${locale}/${ns}.json  (model: ${model})${tag}`,
   );
 
   const systemPrompt = buildSystemPrompt(localeConfig);
@@ -246,7 +246,7 @@ async function main() {
     console.log(`  Batch ${batchNum}: ${batch.length} key(s)…`);
 
     if (dryRun) {
-      console.log(`  [DRY RUN] Keys: ${batch.join(', ')}`);
+      console.log(`  [DRY RUN] Keys: ${batch.join(", ")}`);
       continue;
     }
 
@@ -269,7 +269,7 @@ ${JSON.stringify(batchSource, null, 2)}`;
 
     const warnings = validate(batchSource, translations);
     if (warnings.length > 0) {
-      console.warn('  Validation warnings:');
+      console.warn("  Validation warnings:");
       warnings.forEach((w) => console.warn(w));
     }
 
@@ -278,12 +278,12 @@ ${JSON.stringify(batchSource, null, 2)}`;
   }
 
   if (!dryRun) {
-    writeFileSync(targetPath, JSON.stringify(result, null, 2) + '\n', 'utf8');
+    writeFileSync(targetPath, JSON.stringify(result, null, 2) + "\n", "utf8");
     console.log(`✓ Wrote ${translated} translation(s) to ${locale}/${ns}.json`);
   }
 }
 
 main().catch((err) => {
-  console.error('Translation failed:', err.message);
+  console.error("Translation failed:", err.message);
   process.exit(1);
 });

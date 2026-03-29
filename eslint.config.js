@@ -1,14 +1,14 @@
-import js from '@eslint/js';
-import globals from 'globals';
-import reactHooks from 'eslint-plugin-react-hooks';
-import reactRefresh from 'eslint-plugin-react-refresh';
-import security from 'eslint-plugin-security';
-import { defineConfig, globalIgnores } from 'eslint/config';
+import js from "@eslint/js";
+import globals from "globals";
+import reactHooks from "eslint-plugin-react-hooks";
+import reactRefresh from "eslint-plugin-react-refresh";
+import security from "eslint-plugin-security";
+import { defineConfig, globalIgnores } from "eslint/config";
 
 export default defineConfig([
-  globalIgnores(['dist', 'coverage']),
+  globalIgnores(["dist", "coverage"]),
   {
-    files: ['**/*.test.{js,jsx}', 'src/test/**/*.{js,jsx}'],
+    files: ["**/*.test.{js,jsx}", "src/test/**/*.{js,jsx}"],
     languageOptions: {
       globals: {
         ...globals.browser,
@@ -17,7 +17,7 @@ export default defineConfig([
     },
   },
   {
-    files: ['**/*.{js,jsx}'],
+    files: ["**/*.{js,jsx}"],
     extends: [
       js.configs.recommended,
       reactHooks.configs.flat.recommended,
@@ -28,25 +28,25 @@ export default defineConfig([
       ecmaVersion: 2020,
       globals: globals.browser,
       parserOptions: {
-        ecmaVersion: 'latest',
+        ecmaVersion: "latest",
         ecmaFeatures: { jsx: true },
-        sourceType: 'module',
+        sourceType: "module",
       },
     },
     rules: {
-      'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
+      "no-unused-vars": ["error", { varsIgnorePattern: "^[A-Z_]" }],
     },
   },
   {
-    files: ['scripts/**/*.js'],
+    files: ["scripts/**/*.js"],
     languageOptions: {
       globals: {
         ...globals.node,
       },
     },
     rules: {
-      'security/detect-non-literal-fs-filename': 'off',
-      'security/detect-object-injection': 'off',
+      "security/detect-non-literal-fs-filename": "off",
+      "security/detect-object-injection": "off",
     },
   },
 ]);
