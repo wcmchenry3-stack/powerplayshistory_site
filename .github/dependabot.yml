@@ -5,14 +5,14 @@ updates:
     schedule:
       interval: weekly
       day: monday
-      time: "06:00"
+      time: '06:00'
       timezone: America/Denver
     open-pull-requests-limit: 10
     target-branch: dev
     labels:
       - dependencies
     commit-message:
-      prefix: "chore(deps)"
+      prefix: 'chore(deps)'
     groups:
       dev-dependencies:
         dependency-type: development
@@ -24,10 +24,10 @@ updates:
     schedule:
       interval: weekly
       day: monday
-      time: "06:00"
+      time: '06:00'
       timezone: America/Denver
     target-branch: dev
     labels:
       - dependencies
     commit-message:
-      prefix: "chore(deps)"
+      prefix: 'chore(deps)'
