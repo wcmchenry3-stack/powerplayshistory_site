@@ -1,0 +1,4 @@
+[[allowlists]]
+  description = "Cloudflare Web Analytics beacon token is intentionally public (visible in page source by design)"
+  regexTarget = "line"
+  regexes = ['''data-cf-beacon''']
