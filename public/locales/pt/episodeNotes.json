@@ -1,0 +1,22 @@
+{
+  "pageTitle": "Notas do Episódio",
+  "pageIntro": "A pesquisa por trás de cada dossiê em vídeo — a tabela completa de evidências. Fontes primárias, citações e o contexto que não coube na edição.",
+  "emptyState.title": "Notas do Episódio em Preparação",
+  "emptyState.body": "Novas pesquisas estão sendo elaboradas junto aos próximos dossiês em vídeo. Volte em breve.",
+  "readEpisodeNote": "Ler Nota do Episódio",
+  "published": "Publicado",
+  "volumeIssue": "Volume {{volume}} · Edição {{issue}}",
+  "abstract": "Resumo",
+  "noteSection": "Nota do Episódio",
+  "citationGuide": "Guia de Citação",
+  "citationMla": "MLA 9ª Edição",
+  "copyCitation": "Copiar Citação",
+  "backToEpisodeNotes": "← Voltar para Notas do Episódio",
+  "authoredBy": "Autor",
+  "companionTo": "Companheiro de",
+  "videoForthcoming": "Dossiê em vídeo em breve",
+  "alienSedition.title": "Os Atos de Alien e Sedition: Medo como Política, Poder como Hábito",
+  "alienSedition.subtitle": "Medo como Política, Poder como Hábito",
+  "alienSedition.summary": "Uma análise dos quatro estatutos de 1798 que criminalizaram a dissidência na jovem república americana — e o único que silenciosamente sobreviveu até o século XXI.",
+  "alienSedition.abstract": "No verão de 1798, uma jovem república sob a pressão de uma guerra naval não declarada com a França aprovou quatro estatutos visando a estabilidade política conforme definido pelos Federalists. Este ensaio traça como o clima de suspeita da Quasi-War produziu os Atos de Naturalization, Alien Friends, Sedition e Alien Enemies; como a aplicação visou editores de oposição, congressistas e veteranos; como três dos quatro Atos foram repudiados pelo eleitorado de 1800; e como o quarto — o Alien Enemies Act — foi preservado, emendado e reativado ao longo de dois séculos de governança americana em tempos de guerra."
+}

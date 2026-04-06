@@ -1,5 +1,17 @@
 {
-  "title": "__NEEDS_TRANSLATION__",
-  "comingSoon": "__NEEDS_TRANSLATION__",
-  "tagline": "__NEEDS_TRANSLATION__"
+  "brand": "POWERPLAYS",
+  "siteTitle": "PowerPlays History",
+  "skipLink": "Ga naar hoofdinhoud",
+  "topBar.brandAriaLabel": "PowerPlays History — home",
+  "languageSwitcher.ariaLabel": "Selecteer taal",
+  "bottomNav.ariaLabel": "Primaire navigatie",
+  "bottomNav.archives": "Archieven",
+  "bottomNav.dossiers": "Dossiers",
+  "bottomNav.episodeNotes": "Afleveringsnotities",
+  "bottomNav.settings": "__NEEDS_TRANSLATION__",
+  "comingSoon.title": "Binnenkort Beschikbaar",
+  "comingSoon.body": "Dit deel van het archief wordt voorbereid. Kom binnenkort terug.",
+  "notFound.title": "Pagina Niet Gevonden",
+  "notFound.body": "De pagina die u zoekt bestaat niet in dit archief.",
+  "notFound.backHome": "Terug naar de Archieven"
 }

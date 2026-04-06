@@ -1,5 +1,16 @@
 {
-  "title": "Power Plays History",
-  "comingSoon": "Coming Soon",
-  "tagline": "Something exciting is on its way."
+  "brand": "POWERPLAYS",
+  "siteTitle": "PowerPlays History",
+  "skipLink": "Skip to main content",
+  "topBar.brandAriaLabel": "PowerPlays History — home",
+  "languageSwitcher.ariaLabel": "Select language",
+  "bottomNav.ariaLabel": "Primary navigation",
+  "bottomNav.archives": "Archives",
+  "bottomNav.dossiers": "Dossiers",
+  "bottomNav.episodeNotes": "Episode Notes",
+  "comingSoon.title": "Coming Soon",
+  "comingSoon.body": "This section of the archive is being prepared. Check back shortly.",
+  "notFound.title": "Page Not Found",
+  "notFound.body": "The page you are looking for does not exist in this archive.",
+  "notFound.backHome": "Return to the Archives"
 }

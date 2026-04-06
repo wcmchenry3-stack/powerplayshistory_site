@@ -41,7 +41,7 @@ function parseArgs() {
 
   const locale = get('--locale');
   const ns = get('--namespace');
-  const model = get('--model') ?? 'gpt-4o';
+  const model = get('--model') ?? 'gpt-4o-2024-11-20';
   const dryRun = has('--dry-run');
   const force = has('--force');
 
@@ -54,7 +54,7 @@ function parseArgs() {
         .map((l) => l.code)
         .join(' | ')}`
     );
-    console.error('  Namespaces:  common');
+    console.error('  Namespaces:  common | home | dossiers | episodeNotes');
     process.exit(1);
   }
 
@@ -103,16 +103,16 @@ function buildContextBlock(keys, metaMap) {
 }
 
 function buildSystemPrompt(localeConfig) {
-  return `You are a professional translator and localization expert. Your job is to translate UI strings for a website called "Power Plays History" — a coming soon page.
+  return `You are a professional translator and localization expert. Your job is to translate UI strings for a website called "PowerPlays History" — narrative dossiers on the historical decisions that shaped nations.
 
 Target locale: ${localeConfig.code} — ${localeConfig.nativeLabel} (${localeConfig.label})
 
-ABOUT THE SITE: Power Plays History is a website that is coming soon. The UI strings are minimal — a site title, a "coming soon" announcement, and a short teaser line. The tone should be clean, professional, and natural.
+ABOUT THE SITE: PowerPlays History ("PowerPlays" is one word — no space between "Power" and "Plays") publishes primary-source narrative dossiers on pivotal historical decisions. The tone is editorial, evocative, and archival — never breezy or marketing-heavy.
 
 TRANSLATION GUIDELINES:
 - Use natural, idiomatic language for ${localeConfig.label} speakers
-- "Coming Soon" should use the standard phrase in the target language
-- The tagline should feel warm and inviting, not robotic
+- Preserve the editorial, archival tone — prefer literary word choices over marketing phrasing
+- Historical figure names (e.g., "Lincoln", "Frederick Douglass") must NOT be translated or transliterated
 - Adapt idioms naturally — never carry English sentence structure into the target language
 
 ${buildGlossaryBlock()}
@@ -127,6 +127,13 @@ TRANSLATION RULES:
 
 // ─── OpenAI call ─────────────────────────────────────────────────────────────
 
+const MAX_RETRIES = 3;
+const RETRY_BASE_MS = 2000;
+
+async function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
 async function callOpenAI(systemPrompt, userPrompt, model) {
   const apiKey = process.env.OPENAI_API_KEY;
   if (!apiKey) {
@@ -136,29 +143,45 @@ async function callOpenAI(systemPrompt, userPrompt, model) {
     );
   }
 
-  const response = await fetch('https://api.openai.com/v1/chat/completions', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      Authorization: `Bearer ${apiKey}`,
-    },
-    body: JSON.stringify({
-      model,
-      temperature: 0.2,
-      messages: [
-        { role: 'system', content: systemPrompt },
-        { role: 'user', content: userPrompt },
-      ],
-    }),
-  });
+  for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+    const response = await fetch('https://api.openai.com/v1/chat/completions', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: `Bearer ${apiKey}`,
+      },
+      body: JSON.stringify({
+        model,
+        temperature: 0.2,
+        max_tokens: 4096,
+        messages: [
+          { role: 'system', content: systemPrompt },
+          { role: 'user', content: userPrompt },
+        ],
+      }),
+    });
 
-  if (!response.ok) {
-    const err = await response.text();
-    throw new Error(`OpenAI API error ${response.status}: ${err}`);
+    if (response.status === 429 || response.status === 503) {
+      const backoff = RETRY_BASE_MS * 2 ** (attempt - 1);
+      console.warn(
+        `  ⚠  Rate limited (${response.status}), retrying in ${backoff}ms (attempt ${attempt}/${MAX_RETRIES})…`
+      );
+      await sleep(backoff);
+      continue;
+    }
+
+    if (!response.ok) {
+      const err = await response.text();
+      throw new Error(`OpenAI API error ${response.status}: ${err}`);
+    }
+
+    const data = await response.json();
+    return data.choices[0].message.content.trim();
   }
 
-  const data = await response.json();
-  return data.choices[0].message.content.trim();
+  throw new Error(
+    `OpenAI API failed after ${MAX_RETRIES} retries (rate limited).`
+  );
 }
 
 // ─── Validation ───────────────────────────────────────────────────────────────

@@ -1,5 +1,17 @@
 {
-  "title": "__NEEDS_TRANSLATION__",
-  "comingSoon": "__NEEDS_TRANSLATION__",
-  "tagline": "__NEEDS_TRANSLATION__"
+  "brand": "POWERPLAYS",
+  "siteTitle": "PowerPlays History",
+  "skipLink": "تخطي إلى المحتوى الرئيسي",
+  "topBar.brandAriaLabel": "PowerPlays History — الصفحة الرئيسية",
+  "languageSwitcher.ariaLabel": "اختر اللغة",
+  "bottomNav.ariaLabel": "التنقل الرئيسي",
+  "bottomNav.archives": "الأرشيف",
+  "bottomNav.dossiers": "ملفات",
+  "bottomNav.episodeNotes": "ملاحظات الحلقة",
+  "bottomNav.settings": "__NEEDS_TRANSLATION__",
+  "comingSoon.title": "قريباً",
+  "comingSoon.body": "يتم تحضير هذا القسم من الأرشيف. يرجى العودة قريباً.",
+  "notFound.title": "الصفحة غير موجودة",
+  "notFound.body": "الصفحة التي تبحث عنها غير موجودة في هذا الأرشيف.",
+  "notFound.backHome": "العودة إلى الأرشيف"
 }

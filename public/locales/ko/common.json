@@ -1,5 +1,17 @@
 {
-  "title": "__NEEDS_TRANSLATION__",
-  "comingSoon": "__NEEDS_TRANSLATION__",
-  "tagline": "__NEEDS_TRANSLATION__"
+  "brand": "POWERPLAYS",
+  "siteTitle": "PowerPlays History",
+  "skipLink": "주요 콘텐츠로 건너뛰기",
+  "topBar.brandAriaLabel": "PowerPlays History — 홈",
+  "languageSwitcher.ariaLabel": "언어 선택",
+  "bottomNav.ariaLabel": "주요 탐색",
+  "bottomNav.archives": "아카이브",
+  "bottomNav.dossiers": "도시어",
+  "bottomNav.episodeNotes": "에피소드 노트",
+  "bottomNav.settings": "__NEEDS_TRANSLATION__",
+  "comingSoon.title": "곧 공개",
+  "comingSoon.body": "이 아카이브의 섹션이 준비 중입니다. 곧 다시 확인해 주세요.",
+  "notFound.title": "페이지를 찾을 수 없음",
+  "notFound.body": "찾고 있는 페이지가 이 아카이브에 존재하지 않습니다.",
+  "notFound.backHome": "아카이브로 돌아가기"
 }

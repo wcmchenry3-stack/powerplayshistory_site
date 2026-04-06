@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-hidden="true">
+  <defs>
+    <linearGradient id="wood" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#241a05"/>
+      <stop offset="100%" stop-color="#52452b"/>
+    </linearGradient>
+    <radialGradient id="candle" cx="80%" cy="35%" r="45%">
+      <stop offset="0%" stop-color="#ffd58c" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#241a05" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#wood)"/>
+  <rect width="600" height="400" fill="url(#candle)"/>
+
+  <!-- Folded broadside newspaper -->
+  <g transform="translate(80 230)">
+    <rect x="0" y="0" width="240" height="140" rx="2" fill="#ece8df"/>
+    <rect x="0" y="0" width="240" height="22" fill="#a49273"/>
+    <text x="12" y="16" font-family="Georgia, serif" font-size="14" fill="#241a05" font-weight="bold">SEDITION ACT · 1798</text>
+    <g stroke="#43474d" stroke-width="1.1" opacity="0.55">
+      <line x1="12" y1="36" x2="228" y2="36"/>
+      <line x1="12" y1="48" x2="228" y2="48"/>
+      <line x1="12" y1="60" x2="228" y2="60"/>
+      <line x1="12" y1="72" x2="180" y2="72"/>
+      <line x1="12" y1="92" x2="228" y2="92"/>
+      <line x1="12" y1="104" x2="228" y2="104"/>
+      <line x1="12" y1="116" x2="200" y2="116"/>
+      <line x1="12" y1="128" x2="228" y2="128"/>
+    </g>
+  </g>
+
+  <!-- Quill resting on paper -->
+  <g transform="translate(180 140) rotate(32)" opacity="0.92">
+    <path d="M0 0 L 140 180 L 130 190 L -10 12 Z" fill="#ece8df"/>
+    <path d="M-10 12 L 130 190 L 116 196 L -22 18 Z" fill="#a49273"/>
+    <circle cx="-14" cy="12" r="5" fill="#1a1000"/>
+  </g>
+
+  <!-- Judge's gavel -->
+  <g transform="translate(420 180) rotate(-28)">
+    <rect x="-70" y="-14" width="140" height="28" rx="4" fill="#372b13"/>
+    <rect x="-70" y="-14" width="140" height="6" fill="#a49273"/>
+    <rect x="68" y="-4" width="46" height="8" rx="2" fill="#372b13"/>
+    <circle cx="88" cy="0" r="4" fill="#a49273"/>
+  </g>
+  <!-- Sound block -->
+  <g transform="translate(460 260)">
+    <rect x="-46" y="-10" width="92" height="20" rx="3" fill="#241a05"/>
+    <rect x="-46" y="-10" width="92" height="4" fill="#a49273"/>
+  </g>
+</svg>

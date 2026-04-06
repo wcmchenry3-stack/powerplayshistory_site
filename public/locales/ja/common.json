@@ -1,5 +1,17 @@
 {
-  "title": "__NEEDS_TRANSLATION__",
-  "comingSoon": "__NEEDS_TRANSLATION__",
-  "tagline": "__NEEDS_TRANSLATION__"
+  "brand": "POWERPLAYS",
+  "siteTitle": "PowerPlays History",
+  "skipLink": "メインコンテンツへスキップ",
+  "topBar.brandAriaLabel": "PowerPlays History — ホーム",
+  "languageSwitcher.ariaLabel": "言語を選択",
+  "bottomNav.ariaLabel": "主要ナビゲーション",
+  "bottomNav.archives": "アーカイブ",
+  "bottomNav.dossiers": "ドシエ",
+  "bottomNav.episodeNotes": "エピソードノート",
+  "bottomNav.settings": "__NEEDS_TRANSLATION__",
+  "comingSoon.title": "近日公開",
+  "comingSoon.body": "このアーカイブのセクションは準備中です。しばらくしてから再度ご確認ください。",
+  "notFound.title": "ページが見つかりません",
+  "notFound.body": "お探しのページはこのアーカイブには存在しません。",
+  "notFound.backHome": "アーカイブに戻る"
 }

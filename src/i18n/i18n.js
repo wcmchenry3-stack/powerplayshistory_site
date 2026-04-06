@@ -12,7 +12,9 @@ i18n
     supportedLngs: LOCALES.map((l) => l.code),
     fallbackLng: 'en',
     defaultNS: 'common',
-    ns: ['common'],
+    ns: ['common', 'home', 'dossiers', 'episodeNotes'],
+    keySeparator: false,
+    nsSeparator: ':',
     backend: {
       loadPath: '/locales/{{lng}}/{{ns}}.json',
     },
