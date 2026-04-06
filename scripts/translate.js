@@ -41,7 +41,7 @@ function parseArgs() {
 
   const locale = get('--locale');
   const ns = get('--namespace');
-  const model = get('--model') ?? 'gpt-4o';
+  const model = get('--model') ?? 'gpt-4o-2024-11-20';
   const dryRun = has('--dry-run');
   const force = has('--force');
 
@@ -127,6 +127,13 @@ TRANSLATION RULES:
 
 // ─── OpenAI call ─────────────────────────────────────────────────────────────
 
+const MAX_RETRIES = 3;
+const RETRY_BASE_MS = 2000;
+
+async function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
 async function callOpenAI(systemPrompt, userPrompt, model) {
   const apiKey = process.env.OPENAI_API_KEY;
   if (!apiKey) {
@@ -136,29 +143,45 @@ async function callOpenAI(systemPrompt, userPrompt, model) {
     );
   }
 
-  const response = await fetch('https://api.openai.com/v1/chat/completions', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      Authorization: `Bearer ${apiKey}`,
-    },
-    body: JSON.stringify({
-      model,
-      temperature: 0.2,
-      messages: [
-        { role: 'system', content: systemPrompt },
-        { role: 'user', content: userPrompt },
-      ],
-    }),
-  });
+  for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+    const response = await fetch('https://api.openai.com/v1/chat/completions', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: `Bearer ${apiKey}`,
+      },
+      body: JSON.stringify({
+        model,
+        temperature: 0.2,
+        max_tokens: 4096,
+        messages: [
+          { role: 'system', content: systemPrompt },
+          { role: 'user', content: userPrompt },
+        ],
+      }),
+    });
 
-  if (!response.ok) {
-    const err = await response.text();
-    throw new Error(`OpenAI API error ${response.status}: ${err}`);
+    if (response.status === 429 || response.status === 503) {
+      const backoff = RETRY_BASE_MS * 2 ** (attempt - 1);
+      console.warn(
+        `  ⚠  Rate limited (${response.status}), retrying in ${backoff}ms (attempt ${attempt}/${MAX_RETRIES})…`
+      );
+      await sleep(backoff);
+      continue;
+    }
+
+    if (!response.ok) {
+      const err = await response.text();
+      throw new Error(`OpenAI API error ${response.status}: ${err}`);
+    }
+
+    const data = await response.json();
+    return data.choices[0].message.content.trim();
   }
 
-  const data = await response.json();
-  return data.choices[0].message.content.trim();
+  throw new Error(
+    `OpenAI API failed after ${MAX_RETRIES} retries (rate limited).`
+  );
 }
 
 // ─── Validation ───────────────────────────────────────────────────────────────
