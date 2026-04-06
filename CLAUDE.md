@@ -20,4 +20,4 @@ React + Vite | Tailwind CSS 4 | react-router-dom | i18next (13 locales; namespac
 - Tests (coverage): `npm run test:coverage`
 - Lint: `npm run lint`
 - i18n check: `npm run i18n:check`
-- i18n translate: `OPENAI_API_KEY=<key> node scripts/translate.js --locale <code> --namespace <common|home|dossiers|episodeNotes>`
+- i18n translate: `node scripts/translate.js --locale <code> --namespace <common|home|dossiers|episodeNotes>` (requires OpenAI key exported in env)
