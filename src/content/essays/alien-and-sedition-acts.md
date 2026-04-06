@@ -4,7 +4,7 @@
 
 By 1798, the United States was barely a decade into its constitutional experiment. The Constitution had been ratified in 1788; George Washington had left office only the year before; and the machinery of federal authority was still new, fragile, and contested.[^1]
 
-American merchant ships were being seized by French privateers. Cargo was confiscated. Sailors were detained. What followed was not a declared war—but it was real fighting at sea.[^2] Historians call it the *Quasi-War*, an undeclared naval conflict between the United States and France fought from 1798 to 1800.[^3]
+American merchant ships were being seized by French privateers. Cargo was confiscated. Sailors were detained. What followed was not a declared war—but it was real fighting at sea.[^2] Historians call it the _Quasi-War_, an undeclared naval conflict between the United States and France fought from 1798 to 1800.[^3]
 
 Congress authorized a naval buildup. The army was expanded. George Washington was called out of retirement to command a provisional army.[^4] The republic braced for war—without formally declaring one.
 
@@ -112,9 +112,9 @@ That image traveled.
 
 ## **Benjamin Franklin Bache: The Editor Who Never Made It to Trial**
 
-Benjamin Franklin Bache, grandson of Benjamin Franklin, was editor of the *Aurora*, one of the most influential Republican newspapers in the country.[^28]
+Benjamin Franklin Bache, grandson of Benjamin Franklin, was editor of the _Aurora_, one of the most influential Republican newspapers in the country.[^28]
 
-The *Aurora* regularly attacked Federalist policies and the Adams administration.
+The _Aurora_ regularly attacked Federalist policies and the Adams administration.
 
 Bache was indicted under the Sedition Act in 1798.[^29]
 
@@ -272,11 +272,11 @@ John Adams lost.[^70] Thomas Jefferson and the Democratic-Republicans gained con
 
 Three of the four Acts did not survive the transfer of power:
 
-* The **Sedition Act** expired by its own terms on March 3, 1801.[^71]
+- The **Sedition Act** expired by its own terms on March 3, 1801.[^71]
 
-* The **Alien Friends Act** likewise expired in 1800.[^72]
+- The **Alien Friends Act** likewise expired in 1800.[^72]
 
-* The **Naturalization Act of 1798** was repealed in 1802 and replaced with a shorter residency requirement.[^73]
+- The **Naturalization Act of 1798** was repealed in 1802 and replaced with a shorter residency requirement.[^73]
 
 Jefferson moved quickly to symbolically dismantle the Sedition Act’s legacy. On July 4, 1801, he issued a proclamation pardoning those convicted under it and remitting fines that had not yet been collected.[^74]
 
@@ -357,218 +357,218 @@ One Act was born in fear and survived in structure.
 
 # **Bibliography**
 
-Bird, Wendell. “New Light on the Sedition Act of 1798: The Missing Half of the Prosecutions.” *Law and History Review* 34, no. 3 (2016): 541–614.
+Bird, Wendell. “New Light on the Sedition Act of 1798: The Missing Half of the Prosecutions.” _Law and History Review_ 34, no. 3 (2016): 541–614.
 
-Cole, David. *Enemy Aliens: Double Standards and Constitutional Freedoms in the War on Terrorism*. New York: The New Press, 2003\.
+Cole, David. _Enemy Aliens: Double Standards and Constitutional Freedoms in the War on Terrorism_. New York: The New Press, 2003\.
 
-DeConde, Alexander. *The Quasi-War: The Politics and Diplomacy of the Undeclared War with France, 1797–1801*. New York: Charles Scribner’s Sons, 1966\.
+DeConde, Alexander. _The Quasi-War: The Politics and Diplomacy of the Undeclared War with France, 1797–1801_. New York: Charles Scribner’s Sons, 1966\.
 
-Elkins, Stanley, and Eric McKitrick. *The Age of Federalism: The Early American Republic, 1788–1800*. New York: Oxford University Press, 1993\.
+Elkins, Stanley, and Eric McKitrick. _The Age of Federalism: The Early American Republic, 1788–1800_. New York: Oxford University Press, 1993\.
 
 Jefferson, Thomas. “Proclamation of Pardon.” July 4, 1801\. Founders Online, National Archives. [https://founders.archives.gov](https://founders.archives.gov).
 
 Jefferson, Thomas. Letter to Abigail Adams, September 11, 1804\. Founders Online, National Archives. [https://founders.archives.gov](https://founders.archives.gov).
 
-McCusker, John J. *How Much Is That in Real Money? A Historical Price Index for Use as a Deflator of Money Values in the Economy of the United States*. Worcester, MA: American Antiquarian Society, 1992\.
+McCusker, John J. _How Much Is That in Real Money? A Historical Price Index for Use as a Deflator of Money Values in the Economy of the United States_. Worcester, MA: American Antiquarian Society, 1992\.
 
-Moore, Karen Nelson. “Aliens and the Constitution.” *New York University Law Review* 88 (2013): 801–877.
+Moore, Karen Nelson. “Aliens and the Constitution.” _New York University Law Review_ 88 (2013): 801–877.
 
 National Archives. “World War II Enemy Alien Control Program.” Accessed \[28 Feb 2026\]. [https://www.archives.gov](https://www.archives.gov).
 
 Roosevelt, Franklin D. “Proclamation 2525—Alien Enemies, Japanese.” December 7, 1941\. The American Presidency Project. [https://www.presidency.ucsb.edu](https://www.presidency.ucsb.edu).
 
-United States. *Alien Enemies Act*. Ch. 66\. 1 Stat. 577 (1798).
+United States. _Alien Enemies Act_. Ch. 66\. 1 Stat. 577 (1798).
 
-United States. *Alien Friends Act*. Ch. 58\. 1 Stat. 570 (1798).
+United States. _Alien Friends Act_. Ch. 58\. 1 Stat. 570 (1798).
 
-United States. *Naturalization Act of 1798*. Ch. 54\. 1 Stat. 566 (1798).
+United States. _Naturalization Act of 1798_. Ch. 54\. 1 Stat. 566 (1798).
 
-United States. *Naturalization Act of 1802*. Ch. 28\. 2 Stat. 153 (1802).
+United States. _Naturalization Act of 1802_. Ch. 28\. 2 Stat. 153 (1802).
 
-United States. *Sedition Act of 1798*. Ch. 74\. 1 Stat. 596 (1798).
+United States. _Sedition Act of 1798_. Ch. 74\. 1 Stat. 596 (1798).
 
 United States. Act of April 16, 1918\. Ch. 55\. 40 Stat. 531\.
 
 United States. 50 U.S.C. § 21\.
 
-Smith, James Morton. *Freedom’s Fetters: The Alien and Sedition Laws and American Civil Liberties*. Ithaca: Cornell University Press, 1956\.
+Smith, James Morton. _Freedom’s Fetters: The Alien and Sedition Laws and American Civil Liberties_. Ithaca: Cornell University Press, 1956\.
 
-[^1]:  Stanley Elkins and Eric McKitrick, *The Age of Federalism* (New York: Oxford University Press, 1993), 3–5.
+[^1]: Stanley Elkins and Eric McKitrick, _The Age of Federalism_ (New York: Oxford University Press, 1993), 3–5.
 
-[^2]:  Alexander DeConde, *The Quasi-War: The Politics and Diplomacy of the Undeclared War with France, 1797–1801* (New York: Charles Scribner’s Sons, 1966), 45–92.
+[^2]: Alexander DeConde, _The Quasi-War: The Politics and Diplomacy of the Undeclared War with France, 1797–1801_ (New York: Charles Scribner’s Sons, 1966), 45–92.
 
-[^3]:  Ibid., 1–2.
+[^3]: Ibid., 1–2.
 
-[^4]:  Ibid., 84–90.
+[^4]: Ibid., 84–90.
 
-[^5]:  Ibid., 167–175.
+[^5]: Ibid., 167–175.
 
-[^6]:  Ibid., 180–185.
+[^6]: Ibid., 180–185.
 
-[^7]:  Elkins and McKitrick, *Age of Federalism*, 586–590.
+[^7]: Elkins and McKitrick, _Age of Federalism_, 586–590.
 
-[^8]:  Ibid., 598\.
+[^8]: Ibid., 598\.
 
-[^9]:  James Morton Smith, *Freedom’s Fetters: The Alien and Sedition Laws and American Civil Liberties* (Ithaca: Cornell University Press, 1956), 51–65.
+[^9]: James Morton Smith, _Freedom’s Fetters: The Alien and Sedition Laws and American Civil Liberties_ (Ithaca: Cornell University Press, 1956), 51–65.
 
-[^10]:  Ibid., 3–15.
+[^10]: Ibid., 3–15.
 
-[^11]:  Naturalization Act of 1798, ch. 54, 1 Stat. 566 (1798).
+[^11]: Naturalization Act of 1798, ch. 54, 1 Stat. 566 (1798).
 
-[^12]:  Ibid.
+[^12]: Ibid.
 
-[^13]:  Smith, *Freedom’s Fetters*, 58–62.
+[^13]: Smith, _Freedom’s Fetters_, 58–62.
 
-[^14]:  Alien Friends Act, ch. 58, 1 Stat. 570 (1798).
+[^14]: Alien Friends Act, ch. 58, 1 Stat. 570 (1798).
 
-[^15]:  Smith, *Freedom’s Fetters*, 93–100.
+[^15]: Smith, _Freedom’s Fetters_, 93–100.
 
-[^16]:  Sedition Act of 1798, ch. 74, 1 Stat. 596 (1798).
+[^16]: Sedition Act of 1798, ch. 74, 1 Stat. 596 (1798).
 
-[^17]:  Smith, *Freedom’s Fetters*, 124–126.
+[^17]: Smith, _Freedom’s Fetters_, 124–126.
 
-[^18]:  Wendell Bird, “New Light on the Sedition Act of 1798,” *Law and History Review* 34, no. 3 (2016): 545–548.
+[^18]: Wendell Bird, “New Light on the Sedition Act of 1798,” _Law and History Review_ 34, no. 3 (2016): 545–548.
 
-[^19]:  Smith, *Freedom’s Fetters*, 299–300.
+[^19]: Smith, _Freedom’s Fetters_, 299–300.
 
-[^20]:  Bird, “New Light,” 557–563.
+[^20]: Bird, “New Light,” 557–563.
 
-[^21]:  Alien Enemies Act, ch. 66, 1 Stat. 577 (1798).
+[^21]: Alien Enemies Act, ch. 66, 1 Stat. 577 (1798).
 
-[^22]:  Smith, *Freedom’s Fetters*, 159–163.
+[^22]: Smith, _Freedom’s Fetters_, 159–163.
 
-[^23]:  Ibid., 160\.
+[^23]: Ibid., 160\.
 
-[^24]:  Ibid., 165–168.
+[^24]: Ibid., 165–168.
 
-[^25]:  Bird, “New Light,”  558–562.
+[^25]: Bird, “New Light,” 558–562.
 
-[^26]:  Smith, *Freedom’s Fetters*, 170\.
+[^26]: Smith, _Freedom’s Fetters_, 170\.
 
-[^27]:  Ibid., 172–173.
+[^27]: Ibid., 172–173.
 
-[^28]:  Ibid., 141–145.
+[^28]: Ibid., 141–145.
 
-[^29]:  Ibid., 146\.
+[^29]: Ibid., 146\.
 
-[^30]:  Ibid., 148\.
+[^30]: Ibid., 148\.
 
-[^31]:  Ibid., 299–300.
+[^31]: Ibid., 299–300.
 
-[^32]:  Bird, “New Light,” 557–563.
+[^32]: Bird, “New Light,” 557–563.
 
-[^33]:  Smith, *Freedom’s Fetters*, 182–186.
+[^33]: Smith, _Freedom’s Fetters_, 182–186.
 
-[^34]:  Ibid., 187–190.
+[^34]: Ibid., 187–190.
 
-[^35]:  Ibid., 189–192.
+[^35]: Ibid., 189–192.
 
-[^36]:  Ibid., 155\.
+[^36]: Ibid., 155\.
 
-[^37]:  Ibid., 156–158.
+[^37]: Ibid., 156–158.
 
-[^38]:  Ibid., 162\.
+[^38]: Ibid., 162\.
 
-[^39]:  Alien Friends Act, ch. 58, 1 Stat. 570 (1798).
+[^39]: Alien Friends Act, ch. 58, 1 Stat. 570 (1798).
 
-[^40]:  Smith, *Freedom’s Fetters*, 165–166.
+[^40]: Smith, _Freedom’s Fetters_, 165–166.
 
-[^41]:  Ibid., 168–170.
+[^41]: Ibid., 168–170.
 
-[^42]:  Ibid., 93–100.
+[^42]: Ibid., 93–100.
 
-[^43]:  Smith, *Freedom’s Fetters*, 193–194.
+[^43]: Smith, _Freedom’s Fetters_, 193–194.
 
-[^44]:  Ibid., 194–196.
+[^44]: Ibid., 194–196.
 
-[^45]:  Sedition Act of 1798, ch. 74, 1 Stat. 596 (1798).
+[^45]: Sedition Act of 1798, ch. 74, 1 Stat. 596 (1798).
 
-[^46]:  Smith, Freedom’s Fetters, 125–128.
+[^46]: Smith, Freedom’s Fetters, 125–128.
 
-[^47]:  Ibid., 197\.
+[^47]: Ibid., 197\.
 
-[^48]:  Ibid., 180–183.
+[^48]: Ibid., 180–183.
 
-[^49]:  Ibid., 198–200.
+[^49]: Ibid., 198–200.
 
-[^50]:  Ibid., 200–202.
+[^50]: Ibid., 200–202.
 
-[^51]:  Ibid., 203\.
+[^51]: Ibid., 203\.
 
-[^52]:  John J. McCusker, How Much Is That in Real Money? A Historical Price Index for Use as a Deflator of Money Values in the Economy of the United States (Worcester, MA: American Antiquarian Society, 1992).
+[^52]: John J. McCusker, How Much Is That in Real Money? A Historical Price Index for Use as a Deflator of Money Values in the Economy of the United States (Worcester, MA: American Antiquarian Society, 1992).
 
-[^53]:  Smith, Freedom’s Fetters, 203\.
+[^53]: Smith, Freedom’s Fetters, 203\.
 
-[^54]:  Ibid., 202–204.
+[^54]: Ibid., 202–204.
 
-[^55]:  Ibid., 247\.
+[^55]: Ibid., 247\.
 
-[^56]:  Ibid., 248\.
+[^56]: Ibid., 248\.
 
-[^57]:  Ibid., 249–252.
+[^57]: Ibid., 249–252.
 
-[^58]:  Ibid., 254\.
+[^58]: Ibid., 254\.
 
-[^59]:  Ibid., 254\.
+[^59]: Ibid., 254\.
 
-[^60]:  Ibid., 261–263.
+[^60]: Ibid., 261–263.
 
-[^61]:  Ibid., 264\.
+[^61]: Ibid., 264\.
 
-[^62]:  Bird, “New Light,”  560–562.
+[^62]: Bird, “New Light,” 560–562.
 
-[^63]:  Smith, Freedom’s Fetters, 264–268.
+[^63]: Smith, Freedom’s Fetters, 264–268.
 
-[^64]:  Elkins and McKitrick, The Age of Federalism, 586–590.
+[^64]: Elkins and McKitrick, The Age of Federalism, 586–590.
 
-[^65]:  Smith, Freedom’s Fetters, 268–273.
+[^65]: Smith, Freedom’s Fetters, 268–273.
 
-[^66]:  Bird, “New Light,”  560–563.
+[^66]: Bird, “New Light,” 560–563.
 
-[^67]:  Smith, Freedom’s Fetters, 290-294.
+[^67]: Smith, Freedom’s Fetters, 290-294.
 
-[^68]:  Ibid., 296–298.
+[^68]: Ibid., 296–298.
 
-[^69]:  Ibid., 284–289.
+[^69]: Ibid., 284–289.
 
-[^70]:  Elkins and McKitrick, *Age of Federalism*,  711–718.
+[^70]: Elkins and McKitrick, _Age of Federalism_, 711–718.
 
-[^71]:  Sedition Act of 1798, ch. 74, § 4, 1 Stat. 596 (1798) (sunset provision).
+[^71]: Sedition Act of 1798, ch. 74, § 4, 1 Stat. 596 (1798) (sunset provision).
 
-[^72]:  Alien Friends Act, ch. 58, 1 Stat. 570 (1798).
+[^72]: Alien Friends Act, ch. 58, 1 Stat. 570 (1798).
 
-[^73]:  Naturalization Act of 1802, ch. 28, 2 Stat. 153 (1802).
+[^73]: Naturalization Act of 1802, ch. 28, 2 Stat. 153 (1802).
 
-[^74]:  Thomas Jefferson, “Proclamation of Pardon,” July 4, 1801, Founders Online, National Archives.
+[^74]: Thomas Jefferson, “Proclamation of Pardon,” July 4, 1801, Founders Online, National Archives.
 
-[^75]:  Thomas Jefferson to Abigail Adams, Sept. 11, 1804, Founders Online.
+[^75]: Thomas Jefferson to Abigail Adams, Sept. 11, 1804, Founders Online.
 
-[^76]:  Alien Enemies Act, ch. 66, 1 Stat. 577 (1798).
+[^76]: Alien Enemies Act, ch. 66, 1 Stat. 577 (1798).
 
-[^77]:  Ibid.
+[^77]: Ibid.
 
-[^78]:  Ibid.
+[^78]: Ibid.
 
-[^79]:  David Cole, Enemy Aliens (New York: The New Press, 2003), 17–20.
+[^79]: David Cole, Enemy Aliens (New York: The New Press, 2003), 17–20.
 
-[^80]:  Presidential Proclamation 1364 (Apr. 6, 1917).
+[^80]: Presidential Proclamation 1364 (Apr. 6, 1917).
 
-[^81]:  40 Stat. 531 (1918 amendment).
+[^81]: 40 Stat. 531 (1918 amendment).
 
-[^82]:  Act of April 16, 1918, ch. 55, 40 Stat. 531\.
+[^82]: Act of April 16, 1918, ch. 55, 40 Stat. 531\.
 
-[^83]:  Franklin D. Roosevelt, Proclamation 2525 (Dec. 7, 1941).
+[^83]: Franklin D. Roosevelt, Proclamation 2525 (Dec. 7, 1941).
 
-[^84]:  Ibid.
+[^84]: Ibid.
 
-[^85]:  Proclamations 2526 and 2527 (Dec. 8, 1941).
+[^85]: Proclamations 2526 and 2527 (Dec. 8, 1941).
 
-[^86]:  Korematsu v. United States, 323 U.S. 214 (1944).
+[^86]: Korematsu v. United States, 323 U.S. 214 (1944).
 
-[^87]:  National Archives, “World War II Enemy Alien Control Program.”
+[^87]: National Archives, “World War II Enemy Alien Control Program.”
 
-[^88]:  50 U.S.C. § 21\.
+[^88]: 50 U.S.C. § 21\.
 
-[^89]:  David Cole, Enemy Aliens, 5–9.
+[^89]: David Cole, Enemy Aliens, 5–9.
 
-[^90]:  Karen Nelson Moore, “Aliens and the Constitution,” NYU Law Review 88 (2013): 801–812.
+[^90]: Karen Nelson Moore, “Aliens and the Constitution,” NYU Law Review 88 (2013): 801–812.

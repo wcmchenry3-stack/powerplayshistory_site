@@ -54,9 +54,7 @@ function parseArgs() {
         .map((l) => l.code)
         .join(' | ')}`
     );
-    console.error(
-      '  Namespaces:  common | home | dossiers | episodeNotes'
-    );
+    console.error('  Namespaces:  common | home | dossiers | episodeNotes');
     process.exit(1);
   }
 
