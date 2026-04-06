@@ -1,19 +1,52 @@
-import { useTranslation } from 'react-i18next';
+import { lazy, Suspense } from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { I18nextProvider } from 'react-i18next';
+import i18n from './i18n/i18n.js';
 import { useHtmlAttributes } from './i18n/useHtmlAttributes.js';
+import { SkipLink } from './components/layout/SkipLink.jsx';
+import { TopAppBar } from './components/layout/TopAppBar.jsx';
+import { BottomNavBar } from './components/layout/BottomNavBar.jsx';
+import Home from './pages/Home.jsx';
+import Dossiers from './pages/Dossiers.jsx';
+import EpisodeNotes from './pages/EpisodeNotes.jsx';
+import NotFound from './pages/NotFound.jsx';
+
+// The Episode Note detail page bundles react-markdown + remark-gfm + note body text.
+// Code-split so it only loads when a visitor opens a note.
+const EpisodeNote = lazy(() => import('./pages/EpisodeNote.jsx'));
+
+function AppShell() {
+  useHtmlAttributes();
+  return (
+    <BrowserRouter>
+      <div className="min-h-screen flex flex-col overflow-x-hidden bg-background text-on-background font-body antialiased">
+        <div
+          className="fixed inset-0 grain-overlay z-[100] pointer-events-none"
+          aria-hidden="true"
+        />
+        <SkipLink />
+        <TopAppBar />
+        <div className="flex-1 flex flex-col pb-24">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/dossiers" element={<Dossiers />} />
+            <Route path="/episode-notes" element={<EpisodeNotes />} />
+            <Route path="/episode-notes/:slug" element={<EpisodeNote />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </div>
+        <BottomNavBar />
+      </div>
+    </BrowserRouter>
+  );
+}
 
 export default function App() {
-  useHtmlAttributes();
-  const { t } = useTranslation();
-
   return (
-    <div className="min-h-screen bg-slate-900 text-slate-100 flex flex-col items-center justify-center px-6">
-      <main id="main-content" tabIndex={-1} className="text-center max-w-lg">
-        <h1 className="text-4xl font-bold text-white mb-3">{t('title')}</h1>
-        <p className="text-2xl font-semibold text-teal-400 mb-4">
-          {t('comingSoon')}
-        </p>
-        <p className="text-slate-400 text-lg">{t('tagline')}</p>
-      </main>
-    </div>
+    <I18nextProvider i18n={i18n}>
+      <Suspense fallback={null}>
+        <AppShell />
+      </Suspense>
+    </I18nextProvider>
   );
 }

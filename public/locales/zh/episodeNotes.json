@@ -1,0 +1,22 @@
+{
+  "pageTitle": "Episode Notes",
+  "pageIntro": "每个视频档案背后的研究——完整的证据表。原始资料、引用文献，以及未能纳入的背景信息。",
+  "emptyState.title": "Episode Notes 准备中",
+  "emptyState.body": "新的研究正在与下一个视频档案一起起草。请稍后查看。",
+  "readEpisodeNote": "阅读 Episode Note",
+  "published": "出版日期",
+  "volumeIssue": "卷 {{volume}} · 期 {{issue}}",
+  "abstract": "摘要",
+  "noteSection": "Episode Note",
+  "citationGuide": "引用指南",
+  "citationMla": "MLA 第九版",
+  "copyCitation": "复制引用",
+  "backToEpisodeNotes": "← 返回 Episode Notes",
+  "authoredBy": "作者",
+  "companionTo": "相关视频",
+  "videoForthcoming": "视频档案即将推出",
+  "alienSedition.title": "《Alien and Sedition Acts》：恐惧为策，权力为习",
+  "alienSedition.subtitle": "恐惧为策，权力为习",
+  "alienSedition.summary": "审视1798年四项刑事化异议的法案，这些法案在早期美国共和国中实施——其中一项默默延续至二十一世纪。",
+  "alienSedition.abstract": "1798年夏季，在与法国未宣战的海战压力下，一个年轻的共和国通过了四项法案，以联邦党人定义的政治稳定为目标。本文追溯了准战争时期的怀疑氛围如何催生了《Naturalization》、《Alien Friends》、《Sedition》和《Alien Enemies Acts》；执法如何针对反对派编辑、国会议员和退伍军人；四项法案中的三项如何被1800年的选民否定；以及第四项——《Alien Enemies Act》——如何在两个世纪的美国战时治理中被保留、修订和重新启用。"
+}

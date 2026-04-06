@@ -1,5 +1,17 @@
 {
-  "title": "__NEEDS_TRANSLATION__",
-  "comingSoon": "__NEEDS_TRANSLATION__",
-  "tagline": "__NEEDS_TRANSLATION__"
+  "brand": "POWERPLAYS",
+  "siteTitle": "PowerPlays History",
+  "skipLink": "मुख्य सामग्री पर जाएं",
+  "topBar.brandAriaLabel": "PowerPlays History — होम",
+  "languageSwitcher.ariaLabel": "भाषा चुनें",
+  "bottomNav.ariaLabel": "मुख्य नेविगेशन",
+  "bottomNav.archives": "अभिलेख",
+  "bottomNav.dossiers": "डॉसियर्स",
+  "bottomNav.episodeNotes": "एपिसोड नोट्स",
+  "bottomNav.settings": "__NEEDS_TRANSLATION__",
+  "comingSoon.title": "जल्द आ रहा है",
+  "comingSoon.body": "अभिलेख का यह भाग तैयार किया जा रहा है। कृपया थोड़ी देर में पुनः देखें।",
+  "notFound.title": "पृष्ठ नहीं मिला",
+  "notFound.body": "आप जिस पृष्ठ की तलाश कर रहे हैं वह इस अभिलेख में मौजूद नहीं है।",
+  "notFound.backHome": "अभिलेख पर लौटें"
 }

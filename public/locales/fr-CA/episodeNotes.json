@@ -1,0 +1,22 @@
+{
+  "pageTitle": "Notes d'épisode",
+  "pageIntro": "La recherche derrière chaque dossier vidéo — la table complète des preuves. Sources primaires, citations et contexte qui n'ont pas été retenus.",
+  "emptyState.title": "Notes d'épisode en préparation",
+  "emptyState.body": "De nouvelles recherches sont en cours de rédaction avec les prochains dossiers vidéo. Revenez bientôt.",
+  "readEpisodeNote": "Lire la note d'épisode",
+  "published": "Publié",
+  "volumeIssue": "Volume {{volume}} · Numéro {{issue}}",
+  "abstract": "Résumé",
+  "noteSection": "Note d'épisode",
+  "citationGuide": "Guide de citation",
+  "citationMla": "MLA 9e édition",
+  "copyCitation": "Copier la citation",
+  "backToEpisodeNotes": "← Retour aux notes d'épisode",
+  "authoredBy": "Écrit par",
+  "companionTo": "Compagnon de",
+  "videoForthcoming": "Dossier vidéo à venir",
+  "alienSedition.title": "Les Alien and Sedition Acts : La peur comme politique, le pouvoir comme habitude",
+  "alienSedition.subtitle": "La peur comme politique, le pouvoir comme habitude",
+  "alienSedition.summary": "Une étude des quatre lois de 1798 qui criminalisaient la dissidence dans la jeune république américaine — et celle qui a discrètement survécu jusqu'au XXIe siècle.",
+  "alienSedition.abstract": "À l'été 1798, une jeune république sous la pression d'une guerre navale non déclarée avec la France a adopté quatre lois visant la stabilité politique telle que définie par les Federalists. Cet essai retrace comment le climat de suspicion de la Quasi-War a produit les lois de Naturalization, Alien Friends, Sedition, et Alien Enemies ; comment l'application visait les éditeurs d'opposition, les congressistes et les vétérans ; comment trois des quatre lois ont été rejetées par l'électorat de 1800 ; et comment la quatrième — l'Alien Enemies Act — a été préservée, amendée et réactivée au cours de deux siècles de gouvernance américaine en temps de guerre."
+}

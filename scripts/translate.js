@@ -54,7 +54,9 @@ function parseArgs() {
         .map((l) => l.code)
         .join(' | ')}`
     );
-    console.error('  Namespaces:  common');
+    console.error(
+      '  Namespaces:  common | home | dossiers | episodeNotes'
+    );
     process.exit(1);
   }
 
@@ -103,16 +105,16 @@ function buildContextBlock(keys, metaMap) {
 }
 
 function buildSystemPrompt(localeConfig) {
-  return `You are a professional translator and localization expert. Your job is to translate UI strings for a website called "Power Plays History" — a coming soon page.
+  return `You are a professional translator and localization expert. Your job is to translate UI strings for a website called "PowerPlays History" — narrative dossiers on the historical decisions that shaped nations.
 
 Target locale: ${localeConfig.code} — ${localeConfig.nativeLabel} (${localeConfig.label})
 
-ABOUT THE SITE: Power Plays History is a website that is coming soon. The UI strings are minimal — a site title, a "coming soon" announcement, and a short teaser line. The tone should be clean, professional, and natural.
+ABOUT THE SITE: PowerPlays History ("PowerPlays" is one word — no space between "Power" and "Plays") publishes primary-source narrative dossiers on pivotal historical decisions. The tone is editorial, evocative, and archival — never breezy or marketing-heavy.
 
 TRANSLATION GUIDELINES:
 - Use natural, idiomatic language for ${localeConfig.label} speakers
-- "Coming Soon" should use the standard phrase in the target language
-- The tagline should feel warm and inviting, not robotic
+- Preserve the editorial, archival tone — prefer literary word choices over marketing phrasing
+- Historical figure names (e.g., "Lincoln", "Frederick Douglass") must NOT be translated or transliterated
 - Adapt idioms naturally — never carry English sentence structure into the target language
 
 ${buildGlossaryBlock()}
