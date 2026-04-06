@@ -1,5 +1,17 @@
 {
-  "title": "__NEEDS_TRANSLATION__",
-  "comingSoon": "__NEEDS_TRANSLATION__",
-  "tagline": "__NEEDS_TRANSLATION__"
+  "brand": "POWERPLAYS",
+  "siteTitle": "PowerPlays History",
+  "skipLink": "跳转到主要内容",
+  "topBar.brandAriaLabel": "PowerPlays History — 首页",
+  "languageSwitcher.ariaLabel": "选择语言",
+  "bottomNav.ariaLabel": "主导航",
+  "bottomNav.archives": "档案馆",
+  "bottomNav.dossiers": "档案",
+  "bottomNav.episodeNotes": "集注",
+  "bottomNav.settings": "__NEEDS_TRANSLATION__",
+  "comingSoon.title": "即将推出",
+  "comingSoon.body": "此档案部分正在准备中，请稍后查看。",
+  "notFound.title": "页面未找到",
+  "notFound.body": "您查找的页面在此档案中不存在。",
+  "notFound.backHome": "返回档案馆"
 }

@@ -1,0 +1,209 @@
+{
+  "pageTitle": {
+    "page": "episode-notes",
+    "component": "EpisodeNotes",
+    "description": "Heading of the Episode Notes research archive page.",
+    "tone": "brand, editorial",
+    "characterLimit": 24,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "'Episode Notes' is the branded name for supplementary research that accompanies the video dossiers."
+  },
+  "pageIntro": {
+    "page": "episode-notes",
+    "component": "EpisodeNotes",
+    "description": "Intro paragraph under the Episode Notes page heading.",
+    "tone": "editorial, archival",
+    "characterLimit": 240,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "emptyState.title": {
+    "page": "episode-notes",
+    "component": "EpisodeNotesEmptyState",
+    "description": "Heading shown on the Episode Notes page when no entries have been published yet.",
+    "tone": "anticipatory, neutral",
+    "characterLimit": 40,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "emptyState.body": {
+    "page": "episode-notes",
+    "component": "EpisodeNotesEmptyState",
+    "description": "Body copy for the Episode Notes empty state.",
+    "tone": "anticipatory, warm",
+    "characterLimit": 160,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "readEpisodeNote": {
+    "page": "episode-notes",
+    "component": "EpisodeNoteListItem",
+    "description": "Call-to-action on each Episode Note list entry.",
+    "tone": "action, brand",
+    "characterLimit": 24,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "published": {
+    "page": "episode-notes",
+    "component": "EpisodeNoteHeader",
+    "description": "Label preceding the publication date of a Episode Note.",
+    "tone": "archival",
+    "characterLimit": 16,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "volumeIssue": {
+    "page": "episode-notes",
+    "component": "EpisodeNoteHeader",
+    "description": "Volume and issue badge for a Episode Note.",
+    "tone": "archival",
+    "characterLimit": 30,
+    "placeholders": ["{{volume}}", "{{issue}}"],
+    "doNotTranslate": [],
+    "notes": "{{volume}} and {{issue}} are Roman numerals (e.g. I, II). Preserve both placeholders."
+  },
+  "abstract": {
+    "page": "episode-notes",
+    "component": "EpisodeNoteAbstract",
+    "description": "Heading for the abstract block on a Episode Note page.",
+    "tone": "academic",
+    "characterLimit": 20,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "noteSection": {
+    "page": "episode-notes",
+    "component": "EpisodeNote",
+    "description": "Hidden landmark label for the Episode Note body region.",
+    "tone": "accessibility",
+    "characterLimit": 20,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Screen reader only."
+  },
+  "citationGuide": {
+    "page": "episode-notes",
+    "component": "EpisodeNoteAside",
+    "description": "Heading for the citation guide block.",
+    "tone": "academic",
+    "characterLimit": 30,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "citationMla": {
+    "page": "episode-notes",
+    "component": "EpisodeNoteAside",
+    "description": "Label for the MLA citation format.",
+    "tone": "academic",
+    "characterLimit": 24,
+    "placeholders": [],
+    "doNotTranslate": ["MLA"],
+    "notes": "MLA is a proper noun (Modern Language Association) — do not translate."
+  },
+  "copyCitation": {
+    "page": "episode-notes",
+    "component": "EpisodeNoteAside",
+    "description": "Button label for copying the citation to clipboard.",
+    "tone": "action",
+    "characterLimit": 24,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "backToEpisodeNotes": {
+    "page": "episode-notes",
+    "component": "EpisodeNoteHeader",
+    "description": "Back link returning to the Episode Notes list.",
+    "tone": "action",
+    "characterLimit": 30,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "authoredBy": {
+    "page": "episode-notes",
+    "component": "EpisodeNoteHeader",
+    "description": "Label preceding the author name.",
+    "tone": "archival",
+    "characterLimit": 16,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "companionTo": {
+    "page": "episode-notes",
+    "component": "EpisodeNoteListItem",
+    "description": "Label introducing the companion video dossier for a Episode Note.",
+    "tone": "archival",
+    "characterLimit": 24,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "videoForthcoming": {
+    "page": "episode-notes",
+    "component": "EpisodeNoteListItem",
+    "description": "Status text shown when the companion video dossier has not yet been published.",
+    "tone": "anticipatory, archival",
+    "characterLimit": 40,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "alienSedition.title": {
+    "page": "episode-notes",
+    "component": "EpisodeNoteHeader",
+    "description": "Title of the Alien & Sedition Acts episode note.",
+    "tone": "academic, editorial",
+    "characterLimit": 90,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "'Alien' and 'Sedition Acts' refer to the 1798 U.S. statutes by their proper-noun name."
+  },
+  "alienSedition.subtitle": {
+    "page": "episode-notes",
+    "component": "EpisodeNoteHeader",
+    "description": "Subtitle / tagline of the Alien & Sedition Acts episode note.",
+    "tone": "academic, editorial",
+    "characterLimit": 60,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "alienSedition.summary": {
+    "page": "episode-notes",
+    "component": "EpisodeNoteListItem",
+    "description": "Short summary of the Alien & Sedition Acts episode note shown in the list.",
+    "tone": "academic, evocative",
+    "characterLimit": 220,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "alienSedition.abstract": {
+    "page": "episode-notes",
+    "component": "EpisodeNoteAbstract",
+    "description": "Abstract of the Alien & Sedition Acts episode note.",
+    "tone": "academic",
+    "characterLimit": 700,
+    "placeholders": [],
+    "doNotTranslate": [
+      "Federalists",
+      "Quasi-War",
+      "Naturalization",
+      "Alien Friends",
+      "Sedition",
+      "Alien Enemies Act"
+    ],
+    "notes": "Historical statute names are proper nouns and should not be translated."
+  }
+}

@@ -1,5 +1,17 @@
 {
-  "title": "__NEEDS_TRANSLATION__",
-  "comingSoon": "__NEEDS_TRANSLATION__",
-  "tagline": "__NEEDS_TRANSLATION__"
+  "brand": "POWERPLAYS",
+  "siteTitle": "PowerPlays History",
+  "skipLink": "Перейти к основному содержанию",
+  "topBar.brandAriaLabel": "PowerPlays History — на главную",
+  "languageSwitcher.ariaLabel": "Выбор языка",
+  "bottomNav.ariaLabel": "Основная навигация",
+  "bottomNav.archives": "Архив",
+  "bottomNav.dossiers": "Досье",
+  "bottomNav.episodeNotes": "Заметки",
+  "bottomNav.settings": "__NEEDS_TRANSLATION__",
+  "comingSoon.title": "Скоро будет",
+  "comingSoon.body": "Этот раздел архива готовится. Пожалуйста, зайдите позже.",
+  "notFound.title": "Страница не найдена",
+  "notFound.body": "Страница, которую вы ищете, не существует в этом архиве.",
+  "notFound.backHome": "Вернуться в архив"
 }

@@ -1,0 +1,22 @@
+{
+  "pageTitle": "Episode Notes",
+  "pageIntro": "The research behind each video dossier — the full evidence table. Primary sources, citations, and the context that did not fit the cut.",
+  "emptyState.title": "Episode Notes in Preparation",
+  "emptyState.body": "New research is being drafted alongside the next video dossiers. Check back soon.",
+  "readEpisodeNote": "Read Episode Note",
+  "published": "Published",
+  "volumeIssue": "Volume {{volume}} · Issue {{issue}}",
+  "abstract": "Abstract",
+  "noteSection": "Episode Note",
+  "citationGuide": "Citation Guide",
+  "citationMla": "MLA 9th Edition",
+  "copyCitation": "Copy Citation",
+  "backToEpisodeNotes": "← Back to Episode Notes",
+  "authoredBy": "Authored by",
+  "companionTo": "Companion to",
+  "videoForthcoming": "Video dossier forthcoming",
+  "alienSedition.title": "The Alien and Sedition Acts: Fear as Policy, Power as Habit",
+  "alienSedition.subtitle": "Fear as Policy, Power as Habit",
+  "alienSedition.summary": "An examination of the four 1798 statutes that criminalized dissent in the early American republic — and the one that quietly survived into the twenty-first century.",
+  "alienSedition.abstract": "In the summer of 1798, a young republic under the pressure of an undeclared naval war with France passed four statutes aimed at political stability as Federalists defined it. This essay traces how the Quasi-War climate of suspicion produced the Naturalization, Alien Friends, Sedition, and Alien Enemies Acts; how enforcement targeted opposition editors, congressmen, and veterans; how three of the four Acts were repudiated by the electorate of 1800; and how the fourth — the Alien Enemies Act — was preserved, amended, and reactivated across two centuries of American wartime governance."
+}

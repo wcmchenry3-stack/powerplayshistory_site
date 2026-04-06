@@ -1,32 +1,142 @@
 {
-  "title": {
+  "brand": {
     "page": "global",
-    "component": "App",
-    "description": "The name of the website displayed as the main heading.",
-    "tone": "neutral, brand",
+    "component": "TopAppBar",
+    "description": "Brand wordmark displayed in the top app bar.",
+    "tone": "brand, bold",
+    "characterLimit": 12,
+    "placeholders": [],
+    "doNotTranslate": ["POWERPLAYS"],
+    "notes": "Brand wordmark — do not translate."
+  },
+  "siteTitle": {
+    "page": "global",
+    "component": "meta",
+    "description": "Full site title used for accessible labels and metadata.",
+    "tone": "brand, neutral",
     "characterLimit": null,
     "placeholders": [],
-    "doNotTranslate": ["Power Plays History"],
-    "notes": "This is the brand name — do not translate."
+    "doNotTranslate": ["PowerPlays History", "PowerPlays"],
+    "notes": "Brand name — do not translate."
   },
-  "comingSoon": {
+  "skipLink": {
     "page": "global",
-    "component": "App",
-    "description": "Coming soon announcement shown below the site title.",
-    "tone": "professional, anticipatory",
-    "characterLimit": 20,
+    "component": "SkipLink",
+    "description": "Skip-to-main-content accessibility link shown on keyboard focus.",
+    "tone": "accessibility, direct",
+    "characterLimit": 40,
     "placeholders": [],
     "doNotTranslate": [],
-    "notes": "Short and punchy. Standard 'coming soon' phrase in the target language."
+    "notes": "Standard a11y skip link phrasing."
   },
-  "tagline": {
+  "topBar.brandAriaLabel": {
     "page": "global",
-    "component": "App",
-    "description": "A brief teaser line shown below the coming soon text.",
-    "tone": "warm, inviting",
+    "component": "TopAppBar",
+    "description": "Accessible label for the brand wordmark home link.",
+    "tone": "accessibility, brand",
     "characterLimit": 60,
     "placeholders": [],
+    "doNotTranslate": ["PowerPlays History", "PowerPlays"],
+    "notes": "Screen reader only."
+  },
+  "languageSwitcher.ariaLabel": {
+    "page": "global",
+    "component": "LanguageSwitcher",
+    "description": "Accessible label for the language selection control.",
+    "tone": "accessibility, neutral",
+    "characterLimit": 30,
+    "placeholders": [],
     "doNotTranslate": [],
-    "notes": "Conveys excitement and anticipation. Adapt naturally to the target language."
+    "notes": "Screen reader only."
+  },
+  "bottomNav.ariaLabel": {
+    "page": "global",
+    "component": "BottomNavBar",
+    "description": "Accessible label for the primary bottom navigation bar.",
+    "tone": "accessibility, neutral",
+    "characterLimit": 40,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Screen reader only."
+  },
+  "bottomNav.archives": {
+    "page": "global",
+    "component": "BottomNavBar",
+    "description": "Bottom navigation label for the home / Archives tab.",
+    "tone": "brand, concise",
+    "characterLimit": 12,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Refers to the home page — the archive of historical dossiers."
+  },
+  "bottomNav.dossiers": {
+    "page": "global",
+    "component": "BottomNavBar",
+    "description": "Bottom navigation label for the Dossiers tab.",
+    "tone": "brand, concise",
+    "characterLimit": 12,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Refers to in-depth case files on historical figures."
+  },
+  "bottomNav.episodeNotes": {
+    "page": "global",
+    "component": "BottomNavBar",
+    "description": "Bottom navigation label for the Episode Notes tab.",
+    "tone": "editorial, archival, concise",
+    "characterLimit": 14,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "'Episode Notes' is the branded section name for written research that accompanies each video dossier episode."
+  },
+  "comingSoon.title": {
+    "page": "coming-soon",
+    "component": "ComingSoonPage",
+    "description": "Heading for pages not yet implemented.",
+    "tone": "anticipatory, neutral",
+    "characterLimit": 24,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "comingSoon.body": {
+    "page": "coming-soon",
+    "component": "ComingSoonPage",
+    "description": "Body text for pages not yet implemented.",
+    "tone": "anticipatory, warm",
+    "characterLimit": 120,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "notFound.title": {
+    "page": "not-found",
+    "component": "NotFound",
+    "description": "Heading for the 404 page.",
+    "tone": "neutral",
+    "characterLimit": 24,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "notFound.body": {
+    "page": "not-found",
+    "component": "NotFound",
+    "description": "Body text for the 404 page.",
+    "tone": "neutral, reassuring",
+    "characterLimit": 120,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "notFound.backHome": {
+    "page": "not-found",
+    "component": "NotFound",
+    "description": "Link text on the 404 page that returns the visitor to the home page.",
+    "tone": "brand, action",
+    "characterLimit": 30,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
   }
 }

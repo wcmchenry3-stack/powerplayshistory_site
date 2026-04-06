@@ -1,0 +1,422 @@
+{
+  "pageTitle": {
+    "page": "dossiers",
+    "component": "Dossiers",
+    "description": "Heading of the Dossiers video archive page.",
+    "tone": "brand, editorial",
+    "characterLimit": 40,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "pageIntro": {
+    "page": "dossiers",
+    "component": "Dossiers",
+    "description": "Intro paragraph under the Dossiers page heading.",
+    "tone": "editorial, evocative",
+    "characterLimit": 220,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "emptyState.title": {
+    "page": "dossiers",
+    "component": "DossiersEmptyState",
+    "description": "Heading shown on the Dossiers page when no videos have been published yet.",
+    "tone": "anticipatory, neutral",
+    "characterLimit": 40,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "emptyState.body": {
+    "page": "dossiers",
+    "component": "DossiersEmptyState",
+    "description": "Body copy shown when no videos have been published.",
+    "tone": "anticipatory, warm",
+    "characterLimit": 180,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "watchOnYoutube": {
+    "page": "dossiers",
+    "component": "VideoDossierCard",
+    "description": "Call-to-action on each video dossier card.",
+    "tone": "action, brand",
+    "characterLimit": 30,
+    "placeholders": [],
+    "doNotTranslate": ["YouTube"],
+    "notes": "YouTube is a product name — do not translate."
+  },
+  "openInNewTab": {
+    "page": "dossiers",
+    "component": "VideoDossierCard",
+    "description": "Screen-reader hint appended to external video links.",
+    "tone": "accessibility",
+    "characterLimit": 60,
+    "placeholders": [],
+    "doNotTranslate": ["YouTube"],
+    "notes": "Screen reader only."
+  },
+  "caseNumber": {
+    "page": "dossiers",
+    "component": "VideoDossierCard",
+    "description": "Case number label on each dossier card.",
+    "tone": "archival",
+    "characterLimit": 20,
+    "placeholders": ["{{value}}"],
+    "doNotTranslate": [],
+    "notes": "{{value}} is the case number (e.g. 1798-A). Preserve the placeholder."
+  },
+  "badges.caseFile": {
+    "page": "home",
+    "component": "DossierCard",
+    "description": "Badge text shown on home-page dossier cards with a case file number.",
+    "tone": "editorial, archival",
+    "characterLimit": 24,
+    "placeholders": ["{{number}}"],
+    "doNotTranslate": [],
+    "notes": "{{number}} is the case file number (e.g. 081). Preserve the placeholder."
+  },
+  "badges.perspective": {
+    "page": "home",
+    "component": "DossierCard",
+    "description": "Badge text for dossiers that are perspective pieces.",
+    "tone": "editorial, neutral",
+    "characterLimit": 16,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "formats.fullLength": {
+    "page": "dossiers",
+    "component": "VideoDossierCard",
+    "description": "Format label for a full-length video dossier.",
+    "tone": "editorial, concise",
+    "characterLimit": 20,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "formats.investigation": {
+    "page": "dossiers",
+    "component": "VideoDossierCard",
+    "description": "Format label for an investigation-style dossier.",
+    "tone": "editorial, concise",
+    "characterLimit": 20,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "formats.deepDive": {
+    "page": "dossiers",
+    "component": "VideoDossierCard",
+    "description": "Format label for a deep-dive dossier.",
+    "tone": "editorial, concise",
+    "characterLimit": 20,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "formats.documentary": {
+    "page": "dossiers",
+    "component": "VideoDossierCard",
+    "description": "Format label for a documentary-style dossier.",
+    "tone": "editorial, concise",
+    "characterLimit": 20,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "formats.expedition": {
+    "page": "dossiers",
+    "component": "VideoDossierCard",
+    "description": "Format label for an expedition-style dossier.",
+    "tone": "editorial, concise",
+    "characterLimit": 20,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "formats.shortForm": {
+    "page": "dossiers",
+    "component": "VideoDossierCard",
+    "description": "Format label for a short-form dossier.",
+    "tone": "editorial, concise",
+    "characterLimit": 20,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "eras.politicalPanic1798": {
+    "page": "dossiers",
+    "component": "VideoDossierCard",
+    "description": "Era/category tag for the 1798 Sedition Act dossier.",
+    "tone": "editorial, archival",
+    "characterLimit": 30,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "eras.laborWars1892": {
+    "page": "dossiers",
+    "component": "VideoDossierCard",
+    "description": "Era/category tag for the 1892 Homestead dossier.",
+    "tone": "editorial, archival",
+    "characterLimit": 30,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "eras.shadowDiplomacy1776": {
+    "page": "dossiers",
+    "component": "VideoDossierCard",
+    "description": "Era/category tag for the 1776 French Connection dossier.",
+    "tone": "editorial, archival",
+    "characterLimit": 30,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "eras.economicCollapse1929": {
+    "page": "dossiers",
+    "component": "VideoDossierCard",
+    "description": "Era/category tag for the 1929 Black Tuesday dossier.",
+    "tone": "editorial, archival",
+    "characterLimit": 30,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "eras.expansion1803": {
+    "page": "dossiers",
+    "component": "VideoDossierCard",
+    "description": "Era/category tag for the 1803 Louisiana Purchase dossier.",
+    "tone": "editorial, archival",
+    "characterLimit": 30,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "eras.innovation1844": {
+    "page": "dossiers",
+    "component": "VideoDossierCard",
+    "description": "Era/category tag for the 1844 telegraph dossier.",
+    "tone": "editorial, archival",
+    "characterLimit": 30,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "lincoln.title": {
+    "page": "home",
+    "component": "DossierCard",
+    "description": "Title of the Lincoln featured dossier card.",
+    "tone": "editorial, historical",
+    "characterLimit": 60,
+    "placeholders": [],
+    "doNotTranslate": ["Lincoln"],
+    "notes": "Lincoln is a historical figure's name — do not translate."
+  },
+  "lincoln.summary": {
+    "page": "home",
+    "component": "DossierCard",
+    "description": "Summary of the Lincoln featured dossier card.",
+    "tone": "editorial, evocative",
+    "characterLimit": 180,
+    "placeholders": [],
+    "doNotTranslate": ["America"],
+    "notes": ""
+  },
+  "lincoln.imageAlt": {
+    "page": "home",
+    "component": "DossierCard",
+    "description": "Alt text for the Lincoln dossier card image.",
+    "tone": "accessibility, descriptive",
+    "characterLimit": 120,
+    "placeholders": [],
+    "doNotTranslate": ["Lincoln", "Lincoln Memorial"],
+    "notes": ""
+  },
+  "sedition.title": {
+    "page": "home",
+    "component": "DossierCard",
+    "description": "Title of the 1798 Sedition Act featured dossier card.",
+    "tone": "editorial, historical",
+    "characterLimit": 60,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Refers to the 1798 Alien & Sedition Acts panic in the early American republic."
+  },
+  "sedition.summary": {
+    "page": "home",
+    "component": "DossierCard",
+    "description": "Summary of the 1798 Sedition Act featured dossier card.",
+    "tone": "editorial, evocative",
+    "characterLimit": 260,
+    "placeholders": [],
+    "doNotTranslate": ["President", "First Amendment", "America"],
+    "notes": "Describes the 1798 prosecutions under the Sedition Act. 'First Amendment' is a proper-noun reference to the U.S. Constitution and should not be translated."
+  },
+  "sedition.imageAlt": {
+    "page": "home",
+    "component": "DossierCard",
+    "description": "Alt text for the 1798 Sedition Act dossier card image.",
+    "tone": "accessibility, descriptive",
+    "characterLimit": 140,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "homestead.title": {
+    "page": "dossiers",
+    "component": "VideoDossierCard",
+    "description": "Title of the 1892 Homestead Massacre dossier.",
+    "tone": "editorial, historical",
+    "characterLimit": 70,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "homestead.summary": {
+    "page": "dossiers",
+    "component": "VideoDossierCard",
+    "description": "Summary of the 1892 Homestead Massacre dossier.",
+    "tone": "editorial, evocative",
+    "characterLimit": 200,
+    "placeholders": [],
+    "doNotTranslate": ["Andrew Carnegie"],
+    "notes": "Andrew Carnegie is a historical figure's name — do not translate."
+  },
+  "homestead.imageAlt": {
+    "page": "dossiers",
+    "component": "VideoDossierCard",
+    "description": "Alt text for the 1892 Homestead dossier image.",
+    "tone": "accessibility, descriptive",
+    "characterLimit": 140,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "frenchConnection.title": {
+    "page": "dossiers",
+    "component": "VideoDossierCard",
+    "description": "Title of the 1776 French Connection dossier.",
+    "tone": "editorial, historical",
+    "characterLimit": 60,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "frenchConnection.summary": {
+    "page": "dossiers",
+    "component": "VideoDossierCard",
+    "description": "Summary of the 1776 French Connection dossier.",
+    "tone": "editorial, evocative",
+    "characterLimit": 200,
+    "placeholders": [],
+    "doNotTranslate": ["Paris", "American Revolution"],
+    "notes": ""
+  },
+  "frenchConnection.imageAlt": {
+    "page": "dossiers",
+    "component": "VideoDossierCard",
+    "description": "Alt text for the 1776 French Connection dossier image.",
+    "tone": "accessibility, descriptive",
+    "characterLimit": 140,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "blackTuesday.title": {
+    "page": "dossiers",
+    "component": "VideoDossierCard",
+    "description": "Title of the 1929 Black Tuesday dossier.",
+    "tone": "editorial, historical",
+    "characterLimit": 60,
+    "placeholders": [],
+    "doNotTranslate": ["Black Tuesday"],
+    "notes": "'Black Tuesday' is a proper noun for the October 29, 1929 stock market crash."
+  },
+  "blackTuesday.summary": {
+    "page": "dossiers",
+    "component": "VideoDossierCard",
+    "description": "Summary of the 1929 Black Tuesday dossier.",
+    "tone": "editorial, evocative",
+    "characterLimit": 200,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "blackTuesday.imageAlt": {
+    "page": "dossiers",
+    "component": "VideoDossierCard",
+    "description": "Alt text for the 1929 Black Tuesday dossier image.",
+    "tone": "accessibility, descriptive",
+    "characterLimit": 140,
+    "placeholders": [],
+    "doNotTranslate": ["Wall Street"],
+    "notes": ""
+  },
+  "louisiana.title": {
+    "page": "dossiers",
+    "component": "VideoDossierCard",
+    "description": "Title of the 1803 Louisiana Purchase dossier.",
+    "tone": "editorial, historical",
+    "characterLimit": 60,
+    "placeholders": [],
+    "doNotTranslate": ["Louisiana"],
+    "notes": ""
+  },
+  "louisiana.summary": {
+    "page": "dossiers",
+    "component": "VideoDossierCard",
+    "description": "Summary of the 1803 Louisiana Purchase dossier.",
+    "tone": "editorial, evocative",
+    "characterLimit": 200,
+    "placeholders": [],
+    "doNotTranslate": ["Jefferson", "Napoleon"],
+    "notes": ""
+  },
+  "louisiana.imageAlt": {
+    "page": "dossiers",
+    "component": "VideoDossierCard",
+    "description": "Alt text for the 1803 Louisiana Purchase dossier image.",
+    "tone": "accessibility, descriptive",
+    "characterLimit": 140,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "telegraph.title": {
+    "page": "dossiers",
+    "component": "VideoDossierCard",
+    "description": "Title of the 1844 telegraph dossier.",
+    "tone": "editorial, historical",
+    "characterLimit": 60,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "telegraph.summary": {
+    "page": "dossiers",
+    "component": "VideoDossierCard",
+    "description": "Summary of the 1844 telegraph dossier.",
+    "tone": "editorial, evocative",
+    "characterLimit": 200,
+    "placeholders": [],
+    "doNotTranslate": ["Samuel Morse"],
+    "notes": "Samuel Morse is a historical figure's name — do not translate."
+  },
+  "telegraph.imageAlt": {
+    "page": "dossiers",
+    "component": "VideoDossierCard",
+    "description": "Alt text for the 1844 telegraph dossier image.",
+    "tone": "accessibility, descriptive",
+    "characterLimit": 140,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  }
+}

@@ -1,5 +1,17 @@
 {
-  "title": "__NEEDS_TRANSLATION__",
-  "comingSoon": "__NEEDS_TRANSLATION__",
-  "tagline": "__NEEDS_TRANSLATION__"
+  "brand": "POWERPLAYS",
+  "siteTitle": "PowerPlays History",
+  "skipLink": "דלג לתוכן הראשי",
+  "topBar.brandAriaLabel": "PowerPlays History — דף הבית",
+  "languageSwitcher.ariaLabel": "בחר שפה",
+  "bottomNav.ariaLabel": "ניווט ראשי",
+  "bottomNav.archives": "ארכיון",
+  "bottomNav.dossiers": "תיקים",
+  "bottomNav.episodeNotes": "הערות פרק",
+  "bottomNav.settings": "__NEEDS_TRANSLATION__",
+  "comingSoon.title": "בקרוב",
+  "comingSoon.body": "חלק זה של הארכיון בהכנה. חזרו לבדוק בקרוב.",
+  "notFound.title": "הדף לא נמצא",
+  "notFound.body": "הדף שחיפשתם אינו קיים בארכיון זה.",
+  "notFound.backHome": "חזרה לארכיון"
 }

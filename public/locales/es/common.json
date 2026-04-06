@@ -1,5 +1,17 @@
 {
-  "title": "__NEEDS_TRANSLATION__",
-  "comingSoon": "__NEEDS_TRANSLATION__",
-  "tagline": "__NEEDS_TRANSLATION__"
+  "brand": "POWERPLAYS",
+  "siteTitle": "PowerPlays History",
+  "skipLink": "Saltar al contenido principal",
+  "topBar.brandAriaLabel": "PowerPlays History — inicio",
+  "languageSwitcher.ariaLabel": "Seleccionar idioma",
+  "bottomNav.ariaLabel": "Navegación principal",
+  "bottomNav.archives": "Archivos",
+  "bottomNav.dossiers": "Dossiers",
+  "bottomNav.episodeNotes": "Notas del Episodio",
+  "bottomNav.settings": "__NEEDS_TRANSLATION__",
+  "comingSoon.title": "Próximamente",
+  "comingSoon.body": "Esta sección del archivo está en preparación. Vuelve pronto.",
+  "notFound.title": "Página No Encontrada",
+  "notFound.body": "La página que buscas no existe en este archivo.",
+  "notFound.backHome": "Volver a los Archivos"
 }

@@ -1,0 +1,152 @@
+{
+  "hero.eyebrow": {
+    "page": "home",
+    "component": "HeroSection",
+    "description": "Small eyebrow label above the hero headline.",
+    "tone": "brand, understated",
+    "characterLimit": 30,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Brand sub-name — may be treated as a title."
+  },
+  "hero.headline": {
+    "page": "home",
+    "component": "HeroSection",
+    "description": "Main headline of the hero section on the home page.",
+    "tone": "editorial, evocative",
+    "characterLimit": 60,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Sets the thesis of the site. Keep it punchy."
+  },
+  "hero.body": {
+    "page": "home",
+    "component": "HeroSection",
+    "description": "Supporting paragraph under the hero headline.",
+    "tone": "editorial, inviting",
+    "characterLimit": 180,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Should evoke inner circles of power and grand decisions."
+  },
+  "hero.cta": {
+    "page": "home",
+    "component": "HeroSection",
+    "description": "Call-to-action button text in the hero section.",
+    "tone": "action, brand",
+    "characterLimit": 24,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Leads to the Dossiers page."
+  },
+  "hero.imageAlt": {
+    "page": "home",
+    "component": "HeroSection",
+    "description": "Alt text for the hero background image.",
+    "tone": "accessibility, descriptive",
+    "characterLimit": 120,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Describes a quill-on-parchment historical document image."
+  },
+  "featured.heading": {
+    "page": "home",
+    "component": "FeaturedDossiers",
+    "description": "Section heading for the Featured Dossiers list on the home page.",
+    "tone": "editorial, brand",
+    "characterLimit": 30,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "featured.examineCta": {
+    "page": "home",
+    "component": "DossierCard",
+    "description": "Call-to-action link at the bottom of each dossier card.",
+    "tone": "action, brand",
+    "characterLimit": 20,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "philosophy.heading": {
+    "page": "home",
+    "component": "PhilosophySection",
+    "description": "Heading of the site philosophy section.",
+    "tone": "editorial, italic",
+    "characterLimit": 40,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "philosophy.body": {
+    "page": "home",
+    "component": "PhilosophySection",
+    "description": "Main paragraph describing the site's editorial philosophy.",
+    "tone": "editorial, thoughtful",
+    "characterLimit": 240,
+    "placeholders": [],
+    "doNotTranslate": ["PowerPlays History", "PowerPlays"],
+    "notes": "Describes the brand's perspective on telling history. Brand is 'PowerPlays History' — 'PowerPlays' is one word (no space)."
+  },
+  "philosophy.integrity.heading": {
+    "page": "home",
+    "component": "PhilosophySection",
+    "description": "Sub-heading for the 'Primary Source Integrity' pillar.",
+    "tone": "editorial, brand",
+    "characterLimit": 40,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "philosophy.integrity.body": {
+    "page": "home",
+    "component": "PhilosophySection",
+    "description": "Body text for the 'Primary Source Integrity' pillar.",
+    "tone": "editorial, precise",
+    "characterLimit": 180,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "philosophy.immersion.heading": {
+    "page": "home",
+    "component": "PhilosophySection",
+    "description": "Sub-heading for the 'Narrative Immersion' pillar.",
+    "tone": "editorial, brand",
+    "characterLimit": 40,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "philosophy.immersion.body": {
+    "page": "home",
+    "component": "PhilosophySection",
+    "description": "Body text for the 'Narrative Immersion' pillar.",
+    "tone": "editorial, evocative",
+    "characterLimit": 180,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "philosophy.uncertainty.heading": {
+    "page": "home",
+    "component": "PhilosophySection",
+    "description": "Sub-heading for the 'Uncertain Outcomes' pillar.",
+    "tone": "editorial, brand",
+    "characterLimit": 40,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": ""
+  },
+  "philosophy.uncertainty.body": {
+    "page": "home",
+    "component": "PhilosophySection",
+    "description": "Body text for the 'Uncertain Outcomes' pillar.",
+    "tone": "editorial, evocative",
+    "characterLimit": 200,
+    "placeholders": [],
+    "doNotTranslate": [],
+    "notes": "Emphasizes returning to the moment of decision, before the outcome was fixed."
+  }
+}
