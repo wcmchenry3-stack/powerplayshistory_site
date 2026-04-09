@@ -75,7 +75,10 @@ export default function Citations() {
 
       <div className="space-y-12">
         {entry.sections.map((section) => (
-          <section key={section.heading} aria-labelledby={`section-${section.heading.replace(/\s+/g, '-').toLowerCase()}`}>
+          <section
+            key={section.heading}
+            aria-labelledby={`section-${section.heading.replace(/\s+/g, '-').toLowerCase()}`}
+          >
             <div className="flex items-center gap-3 mb-6 pb-4 border-b border-outline-variant/15">
               <Icon name={section.icon} className="text-secondary text-xl" />
               <h2
