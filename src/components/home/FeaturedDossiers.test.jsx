@@ -26,7 +26,7 @@ describe('FeaturedDossiers', () => {
     expect(
       screen.getByRole('heading', {
         level: 3,
-        name: /when free speech became a crime/i,
+        name: /the law the founders hoped you'd forget/i,
       })
     ).toBeInTheDocument();
   });
