@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Icon } from '../common/Icon.jsx';
 
@@ -34,16 +35,25 @@ export function VideoDossierCard({ dossier }) {
       className={`group relative flex flex-col h-full bg-surface-container-highest p-1 border-s-4 ${border} shadow-archive-soft hover:-translate-y-1 hover:shadow-archive-float transition-all duration-300`}
     >
       <div className="relative overflow-hidden aspect-video bg-primary">
-        {/* Decorative gradient placeholder — no image until real thumbnails ship */}
-        <div
-          aria-hidden="true"
-          className="absolute inset-0 bg-gradient-to-br from-primary via-primary-container to-tertiary"
-        />
+        {dossier.thumbnail ? (
+          <img
+            src={dossier.thumbnail}
+            alt={imageAlt}
+            className="absolute inset-0 w-full h-full object-cover"
+          />
+        ) : (
+          <>
+            <div
+              aria-hidden="true"
+              className="absolute inset-0 bg-gradient-to-br from-primary via-primary-container to-tertiary"
+            />
+            <span className="sr-only">{imageAlt}</span>
+          </>
+        )}
         <div
           aria-hidden="true"
           className="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/30 to-transparent"
         />
-        <span className="sr-only">{imageAlt}</span>
         <div className="absolute bottom-4 start-4 flex items-center gap-2">
           <Icon
             name="play_circle"
@@ -72,7 +82,7 @@ export function VideoDossierCard({ dossier }) {
         <p className="text-sm text-on-surface-variant mb-6 leading-relaxed">
           {summary}
         </p>
-        <div className="mt-auto pt-6">
+        <div className="mt-auto pt-6 flex flex-col gap-3">
           <a
             href={dossier.youtubeUrl}
             target="_blank"
@@ -83,6 +93,24 @@ export function VideoDossierCard({ dossier }) {
             {t('watchOnYoutube')}
             <Icon name="arrow_forward" className="text-sm" />
           </a>
+          {dossier.episodeNotesSlug && (
+            <Link
+              to={`/episode-notes/${dossier.episodeNotesSlug}`}
+              className="font-label text-xs uppercase tracking-widest font-bold text-primary inline-flex items-center gap-2 min-h-[44px] hover:gap-3 hover:text-secondary transition-all focus:outline-none focus:ring-2 focus:ring-secondary focus:ring-offset-2 focus:ring-offset-surface-container-highest rounded"
+            >
+              {t('episodeNotes')}
+              <Icon name="menu_book" className="text-sm" />
+            </Link>
+          )}
+          {dossier.citationsSlug && (
+            <Link
+              to={`/citations/${dossier.citationsSlug}`}
+              className="font-label text-xs uppercase tracking-widest font-bold text-primary inline-flex items-center gap-2 min-h-[44px] hover:gap-3 hover:text-secondary transition-all focus:outline-none focus:ring-2 focus:ring-secondary focus:ring-offset-2 focus:ring-offset-surface-container-highest rounded"
+            >
+              {t('videoCitations')}
+              <Icon name="format_quote" className="text-sm" />
+            </Link>
+          )}
         </div>
       </div>
     </article>

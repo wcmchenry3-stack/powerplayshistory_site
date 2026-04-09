@@ -14,6 +14,7 @@ import NotFound from './pages/NotFound.jsx';
 // The Episode Note detail page bundles react-markdown + remark-gfm + note body text.
 // Code-split so it only loads when a visitor opens a note.
 const EpisodeNote = lazy(() => import('./pages/EpisodeNote.jsx'));
+const Citations = lazy(() => import('./pages/Citations.jsx'));
 
 function AppShell() {
   useHtmlAttributes();
@@ -32,6 +33,7 @@ function AppShell() {
             <Route path="/dossiers" element={<Dossiers />} />
             <Route path="/episode-notes" element={<EpisodeNotes />} />
             <Route path="/episode-notes/:slug" element={<EpisodeNote />} />
+            <Route path="/citations/:slug" element={<Citations />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </div>
