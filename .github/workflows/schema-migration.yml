@@ -3,6 +3,8 @@ name: Schema Migration Check
 on:
   pull_request:
     branches: [main, dev]
+    paths:
+      - 'backend/**'
 
 jobs:
   schema-check:
