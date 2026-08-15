@@ -20,6 +20,7 @@ jobs:
     with:
       working-directory: .
       run-a11y: true
+      node-version: '24'
     secrets: inherit
 
   test:
@@ -27,12 +28,14 @@ jobs:
     with:
       working-directory: .
       coverage-threshold: 80
+      node-version: '24'
     secrets: inherit
 
   build:
     uses: wcmchenry3-stack/.github/.github/workflows/called-build-frontend.yml@main
     with:
       working-directory: .
+      node-version: '24'
     secrets: inherit
 
   cve:
@@ -40,4 +43,5 @@ jobs:
     with:
       working-directory: .
       audit-level: high
+      node-version: '24'
     secrets: inherit
