@@ -293,7 +293,7 @@ But one remained.
 The Alien Enemies Act differed structurally from the other three statutes.
 
 First, it applied only during declared war.[^76]  
- Second, it contained no expiration clause.[^77]
+Second, it contained no expiration clause.[^77]
 
 It authorized the President, once war was declared, to detain, restrain, secure, and remove nationals of a hostile power residing in the United States.[^78]
 
