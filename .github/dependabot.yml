@@ -14,10 +14,20 @@ updates:
     commit-message:
       prefix: 'chore(deps)'
     groups:
+      # CVE fixes get their own PR so they are never held up behind a routine batch.
+      security-updates:
+        applies-to: security-updates
+        patterns: ['*']
+      # dependency-type already covers every package; constraining to
+      # minor/patch keeps majors arriving individually, where they get read.
       dev-dependencies:
+        applies-to: version-updates
         dependency-type: development
+        update-types: ['minor', 'patch']
       production-dependencies:
+        applies-to: version-updates
         dependency-type: production
+        update-types: ['minor', 'patch']
 
   - package-ecosystem: github-actions
     directory: /
@@ -31,3 +41,11 @@ updates:
       - dependencies
     commit-message:
       prefix: 'chore(deps)'
+    groups:
+      security-updates:
+        applies-to: security-updates
+        patterns: ['*']
+      actions:
+        applies-to: version-updates
+        patterns: ['*']
+        update-types: ['minor', 'patch']
